@@ -1,0 +1,59 @@
+{
+  "name": "setting-new-macos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx textlint README.md",
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhythm/setting-new-macos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhythm/setting-new-macos/issues"
+  },
+  "homepage": "https://github.com/dhythm/setting-new-macos#readme",
+  "lint-staged": {
+    "*.{md}": [
+      "npm run lint:fix"
+    ]
+  },
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-no-filler": "^1.1.0",
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "pretty-quick": "^3.1.3",
+    "textlint": "^12.2.4",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-filter-rule-whitelist": "^2.0.0",
+    "textlint-rule-abbr-within-parentheses": "^1.0.2",
+    "textlint-rule-footnote-order": "^1.0.3",
+    "textlint-rule-general-novel-style-ja": "^1.3.0",
+    "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
+    "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-joyo-or-jinmeiyo-kanji": "^1.0.3",
+    "textlint-rule-ja-no-inappropriate-words": "^2.0.0",
+    "textlint-rule-ja-no-orthographic-variants": "^2.0.0",
+    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+    "textlint-rule-ng-word": "^1.0.0",
+    "textlint-rule-no-hoso-kinshi-yogo": "^1.3.2",
+    "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
+    "textlint-rule-period-in-list-item": "^0.3.3",
+    "textlint-rule-prefer-tari-tari": "^1.0.3",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.13",
+    "textlint-rule-prh": "^5.3.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}

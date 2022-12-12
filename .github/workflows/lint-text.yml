@@ -1,0 +1,13 @@
+name: lint text
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: lint text
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/npm-cache
+      - name: lint text
+        run: npm run lint

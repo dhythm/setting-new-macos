@@ -1,1 +1,1 @@
-# setting-new-macos
+# 新しく MacBook Pro を購入した際のセットアップメモ
