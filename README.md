@@ -158,15 +158,18 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 拡張をインストールする。[インストール済拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
 
-VSCodeVim の設定をする。[参考](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
+init.vim を作成して、設定を追加する。
 
 ```sh
-defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false              # For VS Code
-defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false      # For VS Code Insider
-defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false         # For VS Codium
-defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false   # For VS Codium Exploration users
-defaults delete -g ApplePressAndHoldEnabled
+brew install neovim
+which neovim
+
+mkdir ~/.config/nvim
+touch ~/.config/nvim/init.vim
 ```
+
+setting.json の `vscode-neovim.neovimExecutablePaths.darwin` に `which nvim` で取得したパスを設定する。
 
 ### anyenv
 
