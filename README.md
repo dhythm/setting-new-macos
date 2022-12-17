@@ -154,17 +154,39 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ### VS Code
 
-### Xcode
+コマンドパレットを起動（`Cmd+Shift+P`）し、`Shell Command: Install 'code' command PATH` を実行する。
+
+拡張をインストールする。[参考](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
+
+VSCodeVim の設定をする。[参考](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+```sh
+$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false              # For VS Code
+$ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false      # For VS Code Insider
+$ defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false         # For VS Codium
+$ defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false   # For VS Codium Exploration users
+$ defaults delete -g ApplePressAndHoldEnabled
+```
 
 ### anyenv
 
 ### ffmpeg
+
+Homebrew を使ってイントールする。
+
+```sh
+brew install ffmpeg
+```
 
 ### Oh My Zsh
 
 [公式ページ](https://ohmyz.sh/#install)に従い、インストールする。
 
 ### iTerm2
+
+- `Preferences > Profiles > Text` の `Cursor` を Underline に変更
+- `Preferences > Profiles > Text` の `Blinking cursor` を ON に変更
+- `Preferences > Profiles > Session` の `Automatically log session input to files in:` にチェックをつけてログを取得
 
 ### volta
 
@@ -174,3 +196,4 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 - [ ] Figma
 - [ ] Tandem
 - [ ] TablePlus
+- [ ] Xcode
