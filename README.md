@@ -122,9 +122,9 @@
 - Memory: 8 GB
 - Swap: 1 GB
 
-### Fonts
-
 ### Git
+
+`git` は初期からインストールされているので `.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
 
 ### Homebrew
 
@@ -172,6 +172,8 @@ setting.json を設定する。[参考](https://github.com/dhythm/config-public/
 
 ##### Keybindings
 
+`keybindings.json` を更新する。[参考](https://github.com/dhythm/config-public/blob/master/keybindings.nvim.json)
+
 Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
 init.vim を作成して、設定を追加する。
 
@@ -191,6 +193,8 @@ source ~/.vimrc
 autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Kotoeri.RomajiTyping.Roman
 ```
 
+TODO: ~/.vimrc の設定をする。
+
 ### anyenv
 
 ### ffmpeg
@@ -206,6 +210,8 @@ brew install ffmpeg
 [公式ページ](https://ohmyz.sh/#install)に従い、インストールする。
 
 完了後、[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールする。
+
+`.zshrc` を設定する。[参考](https://github.com/dhythm/config-public/blob/master/.zshrc)
 
 ### iTerm2
 
