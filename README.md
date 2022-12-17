@@ -182,6 +182,12 @@ brew install ffmpeg
 
 [公式ページ](https://ohmyz.sh/#install)に従い、インストールする。
 
+完了後、[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールする。
+
+```sh
+git clone git@github.com:romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+```
+
 ### iTerm2
 
 - `Preferences > Profiles > Text` の `Cursor` を Underline に変更
