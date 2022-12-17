@@ -122,9 +122,28 @@
 - Memory: 8 GB
 - Swap: 1 GB
 
-### Git
+### Git / GitHub
 
 `git` は初期からインストールされているので `.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
+
+```sh
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+
+touch ~/.ssh/config
+```
+
+```
+Host *.github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+```sh
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
+```
 
 ### Homebrew
 
