@@ -34,6 +34,7 @@
     "ja-hiragana-keishikimeishi": {
       "severity": "warning"
     },
+    "ja-spacing/ja-space-between-half-and-full-width": false,
     "ja-unnatural-alphabet": true,
     "textlint-rule-prefer-tari-tari": true,
     "@textlint-ja/textlint-rule-no-synonyms": true,
@@ -47,7 +48,9 @@
     "period-in-list-item": true,
     "prefer-tari-tari": true,
     "preset-ja-spacing": true,
-    "preset-jtf-style": true,
+    "preset-jtf-style": {
+      "3.1.1.全角文字と半角文字の間": false
+    },
     "prh": false,
     "spellcheck-tech-word": true
   }
