@@ -235,6 +235,8 @@ git clone https://github.com/anyenv/anyenv ~/.anyenv
 anyenv install pyenv
 ```
 
+node のバージョンは volta にて管理するため、nodenv はインストールしない。
+
 ### ffmpeg
 
 Homebrew を使ってイントールする。
