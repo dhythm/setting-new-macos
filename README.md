@@ -266,6 +266,8 @@ https://docs.volta.sh/guide/getting-started
 curl https://get.volta.sh | bash
 
 volta install node@16.12.0
+
+npm login
 ```
 
 ### Others
