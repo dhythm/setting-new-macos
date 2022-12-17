@@ -167,6 +167,11 @@ which neovim
 
 mkdir ~/.config/nvim
 touch ~/.config/nvim/init.vim
+
+brew tap daipeihust/tap && brew install im-select
+vi ~/.config/nvim/init.vim
+
+autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Kotoeri.RomajiTyping.Roman
 ```
 
 setting.json の `vscode-neovim.neovimExecutablePaths.darwin` に `which nvim` で取得したパスを設定する。
