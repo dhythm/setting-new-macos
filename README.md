@@ -114,11 +114,13 @@
 
 ## アプリケーション（開発）
 
-### Android Studio
-
 ### Docker Desktop for Mac
 
-### Figma
+本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
+
+- CPUs: 4
+- Memory: 8 GB
+- Swap: 1 GB
 
 ### Fonts
 
@@ -126,11 +128,29 @@
 
 ### Homebrew
 
+[公式ページ](https://brew.sh/)にあるコマンドを実行する。
+Xcode Command Line Tools がない場合はインストールされる。
+
+インストール後、手動でパスを設定する。
+
+```sh
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/USERNAME/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 ### MacVim
 
-### TablePlus
+[GitHub](https://github.com/macvim-dev/macvim)のページからダウンロードする。
+以下の設定ファイルを更新する。
 
-### Tamdem
+- `/Applications/MacVim.app/Contents/Resources/vim/vimrc`
+- `/Applications/MacVim.app/Contents/Resources/vim/gvimrc`
+
+それぞれの設定ファイルは下記の通り。
+
+- https://github.com/dhythm/config-public/blob/master/.vimrc
+- https://github.com/dhythm/config-public/blob/master/.gvimrc
 
 ### VS Code
 
@@ -140,6 +160,17 @@
 
 ### ffmpeg
 
+### Oh My Zsh
+
+[公式ページ](https://ohmyz.sh/#install)に従い、インストールする。
+
 ### iTerm2
 
 ### volta
+
+### Others
+
+- [ ] Android Studio
+- [ ] Figma
+- [ ] Tandem
+- [ ] TablePlus
