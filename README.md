@@ -57,30 +57,30 @@
 - `View > Show Tab Bar` を選択
 - `View > Show Path Bar` を選択
 
-## アプリケーション
+## アプリケーション（一般）
 
 ### Google Chrome
 
 ### Sidekick
 
-#### Settings
+##### Settings
 
 - Google account でログインすることで設定を共有
 
-#### Bookmarks
+##### Bookmarks
 
 - 2022/12 時点では同期されない
 - 旧 PC の Bookmark Manager から export
 - 新 PC で `Bookmarks > Import Bookmarks and Settings...` にて import
 
-#### Passwords
+##### Passwords
 
 - 2022/12 時点では同期されない
 - `Settings > Autofill > Password Manager > Saved Passwords` から `Export passwords...` を実行
 - `chrome://flags/` で `Password import` を Enabled に変更（要：再起動）
 - `Settings > Autofill > Password Manager > Saved Passwords` から `Import passwords...` を実行
 
-#### Extensions
+##### Extensions
 
 - AutoPagerize
 - DeepL Translate
@@ -101,22 +101,56 @@
 
 - `General > Reycast Hotkey` を `Ctrl + Space` に変更
 
-### iTerm2
+### Amazon Photos
 
-### Homebrew
+### Bear
 
-### Git
+### DeepL
 
-### ffmpeg
+### Discord
 
-### anyenv
+### Gapplin
 
-### volta
+### Kindle
 
-### VS Code
+### LINE
 
-### Fonts
+### MacVim
+
+### Shortcuts
+
+### Slack
+
+### Spectacle
+
+### Zoom
+
+## アプリケーション（開発）
+
+### Android Studio
 
 ### Docker Desktop for Mac
 
+### Figma
+
+### Fonts
+
+### Git
+
+### Homebrew
+
+### TablePlus
+
+### Tamdem
+
+### VS Code
+
 ### Xcode
+
+### anyenv
+
+### ffmpeg
+
+### iTerm2
+
+### volta
