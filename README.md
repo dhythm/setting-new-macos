@@ -224,6 +224,17 @@ TODO: ~/.vimrc の設定をする。
 
 ### anyenv
 
+https://github.com/anyenv/anyenv
+
+```sh
+brew install anyenv
+anyenv init
+anyenv install --init
+git clone https://github.com/anyenv/anyenv ~/.anyenv
+
+anyenv install pyenv
+```
+
 ### ffmpeg
 
 Homebrew を使ってイントールする。
@@ -247,6 +258,13 @@ brew install ffmpeg
 - `Preferences > Profiles > Session` の `Automatically log session input to files in:` にチェックをつけてログを取得
 
 ### volta
+
+https://docs.volta.sh/guide/getting-started
+```sh
+curl https://get.volta.sh | bash
+
+volta install node@16.12.0
+```
 
 ### Others
 
