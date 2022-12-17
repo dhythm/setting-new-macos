@@ -154,9 +154,23 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ### VS Code
 
+##### code コマンドの有効化
+
 コマンドパレットを起動（`Cmd+Shift+P`）し、`Shell Command: Install 'code' command PATH` を実行する。
 
+##### setting.json
+
+setting.json を設定する。[参考](https://github.com/dhythm/config-public/blob/master/vscode-settings.json)
+
+- `vscode-neovim.neovimExecutablePaths.darwin` に `which nvim` で取得したパスを設定する
+- `terminal.integrated.fontFamily` にターミナルで設定しているフォントを指定する
+- Operator Mono Lig フォントをインストール（[参考](https://github.com/kiliman/operator-mono-lig)）
+
+##### Extensions
+
 拡張をインストールする。[インストール済拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
+
+##### Keybindings
 
 Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
 init.vim を作成して、設定を追加する。
@@ -170,11 +184,12 @@ touch ~/.config/nvim/init.vim
 
 brew tap daipeihust/tap && brew install im-select
 vi ~/.config/nvim/init.vim
-
-autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Kotoeri.RomajiTyping.Roman
 ```
 
-setting.json の `vscode-neovim.neovimExecutablePaths.darwin` に `which nvim` で取得したパスを設定する。
+```
+source ~/.vimrc
+autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Kotoeri.RomajiTyping.Roman
+```
 
 ### anyenv
 
