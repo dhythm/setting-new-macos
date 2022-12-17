@@ -73,29 +73,29 @@
 - 旧 PC の Bookmark Manager から export
 - 新 PC で `Bookmarks > Import Bookmarks and Settings...` にて import
 
+#### Passwords
+
+- 2022/12 時点では同期されない
+- `Settings > Autofill > Password Manager > Saved Passwords` から `Export passwords...` を実行
+- `chrome://flags/` で `Password import` を Enabled に変更（要：再起動）
+- `Settings > Autofill > Password Manager > Saved Passwords` から `Import passwords...` を実行
+
 #### Extensions
 
-TODO: Color Picker 系の拡張は見直しする。
-
 - AutoPagerize
-- Color Contrast Analyzer
 - DeepL Translate
 - Douga Getter
 - EyeDropper
 - Google Translate
 - Grammarly
-- iCloud Bookmarks
 - Keepa
 - LastPass
 - Lighthouse
 - React Developer Tools
-- Dedux DevTools
-- Spectrum
 - Video Speed Controller
 - Vimium
 - Wappalyzer
 - WhatFont
-- Wildfire
 
 ### Raycast
 
