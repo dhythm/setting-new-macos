@@ -18,7 +18,8 @@
 - `Delay until repeat` を Short に設定
 - `Touch Bar Settings... > Touch Bar shows` を `F1, F2, etc. Keys` に変更
 - `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
-- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Space` に変更
+- `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
+- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
 - `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
 
 ### `System Settings > Desktop & Dock`
@@ -126,6 +127,8 @@
 
 `git` は初期からインストールされているので `.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
 
+
+GitHub を利用する設定をする。
 ```sh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
@@ -133,6 +136,7 @@ eval "$(ssh-agent -s)"
 touch ~/.ssh/config
 ```
 
+`~/.ssh/config` を設定する。
 ```
 Host *.github.com
   AddKeysToAgent yes
@@ -140,10 +144,14 @@ Host *.github.com
   IdentityFile ~/.ssh/id_ed25519
 ```
 
+公開鍵をクリップボードに取得する。
 ```sh
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
+
+GitHub のウェブページにアクセスし、`Settings > SSH and GPG keys` を選択。
+SSH keys に取得した公開鍵を貼り付けて保存する。
 
 ### Homebrew
 
