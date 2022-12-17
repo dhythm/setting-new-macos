@@ -18,11 +18,14 @@
 - `Delay until repeat` を Short に設定
 - `Touch Bar Settings... > Touch Bar shows` を `F1, F2, etc. Keys` に変更
 - `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
+- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Space` に変更
+- `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
 
 ### `System Settings > Desktop & Dock`
 
 - `Size` を調整
 - `Automatically hide and show the Dock` を ON に設定
+- Dock から不要なアプリケーションを削除
 
 ### `System Settings > Screen Saver`
 
@@ -55,3 +58,65 @@
 - `View > Show Path Bar` を選択
 
 ## アプリケーション
+
+### Google Chrome
+
+### Sidekick
+
+#### Settings
+
+- Google account でログインすることで設定を共有
+
+#### Bookmarks
+
+- 2022/12 時点では同期されない
+- 旧 PC の Bookmark Manager から export
+- 新 PC で `Bookmarks > Import Bookmarks and Settings...` にて import
+
+#### Extensions
+
+TODO: Color Picker 系の拡張は見直しする。
+
+- AutoPagerize
+- Color Contrast Analyzer
+- DeepL Translate
+- Douga Getter
+- EyeDropper
+- Google Translate
+- Grammarly
+- iCloud Bookmarks
+- Keepa
+- LastPass
+- Lighthouse
+- React Developer Tools
+- Dedux DevTools
+- Spectrum
+- Video Speed Controller
+- Vimium
+- Wappalyzer
+- WhatFont
+- Wildfire
+
+### Raycast
+
+- `General > Reycast Hotkey` を `Ctrl + Space` に変更
+
+### iTerm2
+
+### Homebrew
+
+### Git
+
+### ffmpeg
+
+### anyenv
+
+### volta
+
+### VS Code
+
+### Fonts
+
+### Docker Desktop for Mac
+
+### Xcode
