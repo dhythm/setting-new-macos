@@ -101,29 +101,16 @@
 
 - `General > Reycast Hotkey` を `Ctrl + Space` に変更
 
-### Amazon Photos
+### Others
 
-### Bear
-
-### DeepL
-
-### Discord
-
-### Gapplin
-
-### Kindle
-
-### LINE
-
-### MacVim
-
-### Shortcuts
-
-### Slack
-
-### Spectacle
-
-### Zoom
+- [ ] Bear
+- [ ] DeepL
+- [ ] Discord
+- [ ] Gapplin
+- [ ] LINE
+- [ ] Slack
+- [ ] Spectacle
+- [ ] Zoom
 
 ## アプリケーション（開発）
 
@@ -138,6 +125,8 @@
 ### Git
 
 ### Homebrew
+
+### MacVim
 
 ### TablePlus
 
