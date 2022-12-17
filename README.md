@@ -156,16 +156,16 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 コマンドパレットを起動（`Cmd+Shift+P`）し、`Shell Command: Install 'code' command PATH` を実行する。
 
-拡張をインストールする。[参考](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
+拡張をインストールする。[インストール済拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
 
 VSCodeVim の設定をする。[参考](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
 ```sh
-$ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false              # For VS Code
-$ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false      # For VS Code Insider
-$ defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false         # For VS Codium
-$ defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false   # For VS Codium Exploration users
-$ defaults delete -g ApplePressAndHoldEnabled
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false              # For VS Code
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false      # For VS Code Insider
+defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false         # For VS Codium
+defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false   # For VS Codium Exploration users
+defaults delete -g ApplePressAndHoldEnabled
 ```
 
 ### anyenv
