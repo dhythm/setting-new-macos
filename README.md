@@ -148,14 +148,16 @@
 
 ### Oh My Zsh
 
-[公式ページ](https://ohmyz.sh/#install)に従い、インストール。
-完了後、[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールする。
+https://ohmyz.sh/#install
+
+[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールし、見た目を変更する。
 
 `.zshrc` を設定する。[参考](https://github.com/dhythm/config-public/blob/master/.zshrc)
 
 ### Homebrew
 
-[公式ページ](https://brew.sh/)にあるコマンドを実行する。
+https://brew.sh/
+
 Xcode Command Line Tools がない場合はインストールされる。
 インストール後、手動でパスを設定する。
 
@@ -207,7 +209,8 @@ SSH keys に取得した公開鍵を貼り付けて保存する。
 
 ### MacVim
 
-[GitHub](https://github.com/macvim-dev/macvim)のページからダウンロードする。
+https://github.com/macvim-dev/macvim
+
 以下の設定ファイルを更新する。
 
 - `/Applications/MacVim.app/Contents/Resources/vim/vimrc`
