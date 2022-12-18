@@ -11,7 +11,7 @@
 
 - `Pointer Control > Trackpad Options... > Scroll speed` を Fast に設定
 
-![](./assets/img/scroll_speed.png = 250x)
+![](./assets/img/scroll_speed.png)
 
 ### `System Settings > Control Center`
 
@@ -138,22 +138,38 @@
 
 ## アプリケーション（開発）
 
-### Docker Desktop for Mac
+### iTerm2
 
-本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
+- `Preferences > Profiles > Text` の `Cursor` を Underline に変更
+- `Preferences > Profiles > Text` の `Blinking cursor` を ON に変更
+- `Preferences > Profiles > Session` の `Automatically log session input to files in:` にチェックをつけてログを取得
 
-- CPUs: 4
-- Memory: 8 GB
-- Swap: 1 GB
+![](./assets/img/iterm2.png)
 
-![docker](./assets/img/docker.png)
+### Oh My Zsh
+
+[公式ページ](https://ohmyz.sh/#install)に従い、インストール。
+完了後、[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールする。
+
+`.zshrc` を設定する。[参考](https://github.com/dhythm/config-public/blob/master/.zshrc)
+
+### Homebrew
+
+[公式ページ](https://brew.sh/)にあるコマンドを実行する。
+Xcode Command Line Tools がない場合はインストールされる。
+インストール後、手動でパスを設定する。
+
+```sh
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/USERNAME/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 ### Git / GitHub
 
 `git` は初期からインストールされているので `.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
 
-
-GitHub を利用する設定をする。
+次に GitHub を利用する設定をする。
 ```sh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
@@ -178,18 +194,16 @@ pbcopy < ~/.ssh/id_ed25519.pub
 GitHub のウェブページにアクセスし、`Settings > SSH and GPG keys` を選択。
 SSH keys に取得した公開鍵を貼り付けて保存する。
 
-### Homebrew
+### Docker Desktop for Mac
 
-[公式ページ](https://brew.sh/)にあるコマンドを実行する。
-Xcode Command Line Tools がない場合はインストールされる。
+本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
 
-インストール後、手動でパスを設定する。
+- CPUs: 4
+- Memory: 8 GB
+- Swap: 1 GB
 
-```sh
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/USERNAME/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
+![](./assets/img/docker.png)
+
 
 ### MacVim
 
@@ -220,7 +234,7 @@ setting.json を設定する。[参考](https://github.com/dhythm/config-public/
 
 ##### Extensions
 
-拡張をインストールする。[インストール済拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
+拡張をインストールする。[参考](https://github.com/dhythm/config-public/blob/master/vscode-extensions.txt)
 
 ##### Keybindings
 
@@ -262,28 +276,6 @@ anyenv install pyenv
 
 node のバージョンは volta にて管理するため、nodenv はインストールしない。
 
-### ffmpeg
-
-Homebrew を使ってイントールする。
-
-```sh
-brew install ffmpeg
-```
-
-### Oh My Zsh
-
-[公式ページ](https://ohmyz.sh/#install)に従い、インストールする。
-
-完了後、[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールする。
-
-`.zshrc` を設定する。[参考](https://github.com/dhythm/config-public/blob/master/.zshrc)
-
-### iTerm2
-
-- `Preferences > Profiles > Text` の `Cursor` を Underline に変更
-- `Preferences > Profiles > Text` の `Blinking cursor` を ON に変更
-- `Preferences > Profiles > Session` の `Automatically log session input to files in:` にチェックをつけてログを取得
-
 ### volta
 
 https://docs.volta.sh/guide/getting-started
@@ -293,6 +285,15 @@ curl https://get.volta.sh | bash
 volta install node@16.12.0
 
 npm login
+```
+
+
+### ffmpeg
+
+Homebrew を使ってイントールする。
+
+```sh
+brew install ffmpeg
 ```
 
 ### Others
