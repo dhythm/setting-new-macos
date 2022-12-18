@@ -2,35 +2,16 @@
 
 ## 設定
 
+### `System Settings > General`
+
+- `About > name` で変更
+
+
 ### `System Settings > Accessibility`
 
-- `Trackpad Options... > Scroll speed` を Fast に設定
+- `Pointer Control > Trackpad Options... > Scroll speed` を Fast に設定
 
-### `System Settings > Trackpad`
-
-- `Tracking speed` を Fast に設定
-- `Tap to click` を ON に設定
-- `Look up & data detectors` を `Tap with Three Fingers` に変更
-
-### `System Settings > Keyboard`
-
-- `Key repeat rate` を Fast に設定
-- `Delay until repeat` を Short に設定
-- `Touch Bar Settings... > Touch Bar shows` を `F1, F2, etc. Keys` に変更
-- `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
-- `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
-- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
-- `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
-
-### `System Settings > Desktop & Dock`
-
-- `Size` を調整
-- `Automatically hide and show the Dock` を ON に設定
-- Dock から不要なアプリケーションを削除
-
-### `System Settings > Screen Saver`
-
-- `Hello` に変更
+![scroll speed](./assets/img/scroll_speed.png)
 
 ### `System Settings > Control Center`
 
@@ -38,13 +19,50 @@
 - `Sound` を `Always Show in Menu Bar` に設定
 - `Battery > Show Percentage` を ON に設定
 
+
+![control center 01](./assets/img/control_center_01.png)
+![control center 02](./assets/img/control_center_02.png)
+
+### `System Settings > Desktop & Dock`
+
+- `Size` を調整
+- `Automatically hide and show the Dock` を ON に設定
+- Dock から不要なアプリケーションを削除
+
 ### `System Settings > Displays`
 
 - `More Space` を選択
 
-### `System Settings > General`
+![display](./assets/img/display.png)
 
-- `About > name` で変更
+### `System Settings > Screen Saver`
+
+- `Hello` に変更
+
+
+### `System Settings > Keyboard`
+
+- `Key repeat rate` を Fast に設定
+- `Delay until repeat` を Short に設定
+- `Touch Bar Settings... > Touch Bar shows` を `F1, F2, etc. Keys` に変更
+- `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
+- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
+- `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
+- `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
+
+![keyboard 01](./assets/img/keyboard_01.png)
+![keyboard 02](./assets/img/keyboard_02.png)
+![keyboard 03](./assets/img/keyboard_03.png)
+![keyboard 04](./assets/img/keyboard_04.png)
+![keyboard 05](./assets/img/keyboard_05.png)
+
+### `System Settings > Trackpad`
+
+- `Tracking speed` を Fast に設定
+- `Look up & data detectors` を `Tap with Three Fingers` に変更
+- `Tap to click` を ON に設定
+
+![trackpad](./assets/img/trackpad.png)
 
 ### `System Settings > Privacy & Security`
 
@@ -57,6 +75,9 @@
 - `View > as Columns` を選択
 - `View > Show Tab Bar` を選択
 - `View > Show Path Bar` を選択
+
+![finder 01](./assets/img/finder_01.png)
+![finder 02](./assets/img/finder_02.png)
 
 ## アプリケーション（一般）
 
@@ -83,24 +104,26 @@
 
 ##### Extensions
 
-- AutoPagerize
-- DeepL Translate
-- Douga Getter
-- EyeDropper
-- Google Translate
-- Grammarly
-- Keepa
-- LastPass
-- Lighthouse
-- React Developer Tools
-- Video Speed Controller
-- Vimium
-- Wappalyzer
-- WhatFont
+- [ ] AutoPagerize
+- [ ] DeepL Translate
+- [ ] Douga Getter
+- [ ] EyeDropper
+- [ ] Google Translate
+- [ ] Grammarly
+- [ ] Keepa
+- [ ] LastPass
+- [ ] Lighthouse
+- [ ] React Developer Tools
+- [ ] Video Speed Controller
+- [ ] Vimium
+- [ ] Wappalyzer
+- [ ] WhatFont
 
 ### Raycast
 
 - `General > Reycast Hotkey` を `Ctrl + Space` に変更
+
+![raycast](./assets/img/raycast.png)
 
 ### Others
 
@@ -122,6 +145,8 @@
 - CPUs: 4
 - Memory: 8 GB
 - Swap: 1 GB
+
+![docker](./assets/img/docker.png)
 
 ### Git / GitHub
 
