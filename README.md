@@ -242,8 +242,6 @@ setting.json を設定する。[参考](https://github.com/dhythm/config-public/
 
 Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
 
-init.vim を作成して、設定を追加する。
-
 ```sh
 brew install neovim
 which neovim
@@ -252,15 +250,21 @@ mkdir ~/.config/nvim
 touch ~/.config/nvim/init.vim
 
 brew tap daipeihust/tap && brew install im-select
-vi ~/.config/nvim/init.vim
 ```
 
+init.vim を作成して、設定を追加する。
 ```
+$ vi ~/.config/nvim/init.vim
+
 source ~/.vimrc
 autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Kotoeri.RomajiTyping.Roman
 ```
 
 TODO: ~/.vimrc の設定をする。
+```
+$ vi ~/.vimrc
+
+```
 
 ### anyenv
 
