@@ -11,7 +11,7 @@
 
 - `Pointer Control > Trackpad Options... > Scroll speed` を Fast に設定
 
-![scroll speed](./assets/img/scroll_speed.png)
+![](./assets/img/scroll_speed.png = 250x)
 
 ### `System Settings > Control Center`
 
@@ -20,8 +20,8 @@
 - `Battery > Show Percentage` を ON に設定
 
 
-![control center 01](./assets/img/control_center_01.png)
-![control center 02](./assets/img/control_center_02.png)
+![](./assets/img/control_center_01.png)
+![](./assets/img/control_center_02.png)
 
 ### `System Settings > Desktop & Dock`
 
@@ -33,7 +33,7 @@
 
 - `More Space` を選択
 
-![display](./assets/img/display.png)
+![](./assets/img/display.png)
 
 ### `System Settings > Screen Saver`
 
@@ -50,11 +50,11 @@
 - `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
 - `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
 
-![keyboard 01](./assets/img/keyboard_01.png)
-![keyboard 02](./assets/img/keyboard_02.png)
-![keyboard 03](./assets/img/keyboard_03.png)
-![keyboard 04](./assets/img/keyboard_04.png)
-![keyboard 05](./assets/img/keyboard_05.png)
+![](./assets/img/keyboard_01.png)
+![](./assets/img/keyboard_02.png)
+![](./assets/img/keyboard_03.png)
+![](./assets/img/keyboard_04.png)
+![](./assets/img/keyboard_05.png)
 
 ### `System Settings > Trackpad`
 
@@ -62,7 +62,7 @@
 - `Look up & data detectors` を `Tap with Three Fingers` に変更
 - `Tap to click` を ON に設定
 
-![trackpad](./assets/img/trackpad.png)
+![](./assets/img/trackpad.png)
 
 ### `System Settings > Privacy & Security`
 
@@ -76,8 +76,8 @@
 - `View > Show Tab Bar` を選択
 - `View > Show Path Bar` を選択
 
-![finder 01](./assets/img/finder_01.png)
-![finder 02](./assets/img/finder_02.png)
+![](./assets/img/finder_01.png)
+![](./assets/img/finder_02.png)
 
 ## アプリケーション（一般）
 
@@ -123,7 +123,7 @@
 
 - `General > Reycast Hotkey` を `Ctrl + Space` に変更
 
-![raycast](./assets/img/raycast.png)
+![](./assets/img/raycast.png)
 
 ### Others
 
