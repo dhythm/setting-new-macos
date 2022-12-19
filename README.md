@@ -244,6 +244,7 @@ setting.json を設定する。[参考](https://github.com/dhythm/config-public/
 `keybindings.json` を更新する。[参考](https://github.com/dhythm/config-public/blob/master/keybindings.nvim.json)
 
 Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
+
 https://www.youtube.com/watch?v=stqUbv-5u2s
 
 ```sh
