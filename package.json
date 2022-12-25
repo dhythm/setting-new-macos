@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "npx textlint README.md",
+    "lint": "npx textlint **/*.md",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install"
   },

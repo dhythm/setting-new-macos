@@ -286,6 +286,16 @@ anyenv install pyenv
 
 node のバージョンは volta にて管理するため、nodenv はインストールしない。
 
+```sh
+pyenv install --list
+pyenv install <version>
+pyenv versions
+
+pyenv global <version>
+pyenv local <version>
+pyenv shell <version>
+```
+
 ### volta
 
 https://docs.volta.sh/guide/getting-started
