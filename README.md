@@ -269,6 +269,7 @@ TODO: ~/.vimrc の設定をする。
 ```
 $ vi ~/.vimrc
 
+set clipboard+=unnamed
 ```
 
 ### anyenv
