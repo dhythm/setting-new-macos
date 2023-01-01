@@ -39,6 +39,9 @@
 
 - `Hello` に変更
 
+### `System Settings > Touch ID & Password`
+
+- Apple Watch で Mac のアンロックを有効にする
 
 ### `System Settings > Keyboard`
 
