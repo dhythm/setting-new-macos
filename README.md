@@ -226,6 +226,10 @@ https://github.com/macvim-dev/macvim
 
 ### VS Code
 
+##### 開いているファイルを表示する
+
+サイドバーから `EXPLORER > Open Editors` をチェックする
+
 ##### code コマンドの有効化
 
 コマンドパレットを起動（`Cmd+Shift+P`）し、`Shell Command: Install 'code' command PATH` を実行する。
@@ -310,6 +314,14 @@ Homebrew を使ってイントールする。
 
 ```sh
 brew install ffmpeg
+```
+
+### act
+
+GitHub Actions をローカルで実行して確認できるアプリケーション。[参考](https://www.memory-lovers.blog/entry/2022/11/13/120000)
+
+```sh
+brew install act
 ```
 
 ### Others
