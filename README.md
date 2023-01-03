@@ -250,34 +250,7 @@ setting.json を設定する。[参考](https://github.com/dhythm/config-public/
 
 `keybindings.json` を更新する。[参考](https://github.com/dhythm/config-public/blob/master/keybindings.nvim.json)
 
-Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
-
-https://www.youtube.com/watch?v=stqUbv-5u2s
-
-```sh
-brew install neovim
-which neovim
-
-mkdir ~/.config/nvim
-touch ~/.config/nvim/init.vim
-
-brew tap daipeihust/tap && brew install im-select
-```
-
-init.vim を作成して、設定を追加する。
-```
-$ vi ~/.config/nvim/init.vim
-
-source ~/.vimrc
-autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Kotoeri.RomajiTyping.Roman
-```
-
-TODO: ~/.vimrc の設定をする。
-```
-$ vi ~/.vimrc
-
-set clipboard+=unnamed
-```
+[nvim の設定](docs/nvim.md)
 
 ### anyenv
 
