@@ -52,3 +52,9 @@ Plug 'tpope/vim-surround'
 call plug#end()
 ```
 
+nvim を開いて下記のコマンドを入力することでプラグインがインストールできる。
+```
+:PlugInstall
+```
+
+nvim を再起動する。
