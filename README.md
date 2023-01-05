@@ -13,6 +13,13 @@
 
 ![](./assets/img/scroll_speed.png)
 
+### `System Settings > Accessibility`
+
+- 検索欄で `camera` と入力すると `Camera Options...` が表示される
+- `Camera Options...` から内蔵カメラ/外付けカメラの切り替えができる
+
+![](./assets/img/camera_options.png)
+
 ### `System Settings > Control Center`
 
 - `Bluetooth` を表示
