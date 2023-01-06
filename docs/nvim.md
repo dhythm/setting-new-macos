@@ -25,7 +25,12 @@ autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Ko
 `.vimrc` の設定をする。
 ```
 " ~/.vimrc
-set clipboard+=unnamed
+" set clipboard+=unnamed
+if exists('g:vscode')
+    " VSCode extension
+else
+    " ordinary Neovim
+endif
 ```
 
 ## nvim の設定
