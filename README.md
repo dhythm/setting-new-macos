@@ -258,6 +258,7 @@ setting.json を設定する。[参考](https://github.com/dhythm/config-public/
 `keybindings.json` を更新する。[参考](https://github.com/dhythm/config-public/blob/master/keybindings.nvim.json)
 
 [nvim の設定](docs/nvim.md)
+[LunarVim の設定](docs/lunar-vim.md)
 
 ### anyenv
 
