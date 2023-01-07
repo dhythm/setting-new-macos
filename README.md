@@ -280,12 +280,27 @@ node のバージョンは volta にて管理するため、nodenv はインス�
 ### volta
 
 https://docs.volta.sh/guide/getting-started
+
 ```sh
 curl https://get.volta.sh | bash
 
 volta install node@16.12.0
 
 npm login
+```
+
+### Deno
+
+https://deno.land/manual@v1.29.2/getting_started/installation
+
+```sh
+curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+`.zshrc` にパスを追加する。
+
+```
+export PATH="$HOME/.deno/bin:$PATH"
 ```
 
 
