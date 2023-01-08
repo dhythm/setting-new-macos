@@ -11,6 +11,15 @@ LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.
 export PATH="$HOME/.local/bin/:$PATH"
 ```
 
+### 設定
+
+`~/.config/lvim/config.lua` を更新する。
+
+```
+lvim.format_on_save.enabled = true
+lvim.format_on_save = true
+```
+
 ### 起動
 
 `:e <file_path>` でファイルを読み込む。ファイルのパスに移動する。
