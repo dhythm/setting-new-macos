@@ -52,7 +52,7 @@ mkdir ~/.config/nvim/plugged
 " PLUGIN SETTINGS
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'tpope/vim-surround'
+Plug '...'
 
 call plug#end()
 ```
@@ -63,3 +63,18 @@ nvim を開いて下記コマンドを実行する。
 ```
 
 nvim を再起動する。
+
+## プラグインのインストール
+
+### vim-surround
+
+https://github.com/tpope/vim-surround
+
+### fern
+
+https://github.com/lambdalisue/fern.vim
+
+```
+:Fern .
+:Fern . -drawer
+```
