@@ -7,6 +7,7 @@ LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.
 ```
 
 `.zshrc` に下記を追加する。
+
 ```
 export PATH="$HOME/.local/bin/:$PATH"
 ```
@@ -109,7 +110,6 @@ https://www.lunarvim.org/docs/configuration/nerd-fonts
 
 バッファを確認する場合は `:ls`、消す場合は `:bw <number>` を実行する。
 
-
 ### 開発
 
 - K: inspect
@@ -122,4 +122,3 @@ TypeScript をインストールする。
 :TSInstall typescript
 :TSInstall tsx
 ```
-

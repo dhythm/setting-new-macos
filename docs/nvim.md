@@ -1,4 +1,3 @@
-
 ## インストール
 
 Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)
@@ -16,6 +15,7 @@ brew tap daipeihust/tap && brew install im-select
 ```
 
 `init.vim` を作成して、設定を追加する。
+
 ```
 " ~/.config/nvim/init.vim
 source ~/.vimrc
@@ -23,6 +23,7 @@ autocmd InsertLeave * :silent !/usr/local/bin/im-select com.apple.inputmethod.Ko
 ```
 
 `.vimrc` の設定をする。
+
 ```
 " ~/.vimrc
 " set clipboard+=unnamed
@@ -44,6 +45,7 @@ mkdir ~/.config/nvim/plugged
 ```
 
 `init.vim` にプラグインの設定を追加する。
+
 ```
 " ~/.config/nvim/init.vim
 
@@ -58,6 +60,7 @@ call plug#end()
 ```
 
 nvim を開いて下記コマンドを実行する。
+
 ```
 :PlugInstall
 ```

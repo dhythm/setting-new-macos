@@ -6,7 +6,6 @@
 
 - `About > name` で変更
 
-
 ### `System Settings > Accessibility`
 
 - `Pointer Control > Trackpad Options... > Scroll speed` を Fast に設定
@@ -25,7 +24,6 @@
 - `Bluetooth` を表示
 - `Sound` を `Always Show in Menu Bar` に設定
 - `Battery > Show Percentage` を ON に設定
-
 
 ![](./assets/img/control_center_01.png)
 ![](./assets/img/control_center_02.png)
@@ -182,6 +180,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 `git` は初期からインストールされているので `.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
 
 次に GitHub を利用する設定をする。
+
 ```sh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
@@ -190,6 +189,7 @@ touch ~/.ssh/config
 ```
 
 `~/.ssh/config` を設定する。
+
 ```
 Host *.github.com
   AddKeysToAgent yes
@@ -198,6 +198,7 @@ Host *.github.com
 ```
 
 公開鍵をクリップボードに取得する。
+
 ```sh
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 pbcopy < ~/.ssh/id_ed25519.pub
@@ -215,7 +216,6 @@ SSH keys に取得した公開鍵を貼り付けて保存する。
 - Swap: 1 GB
 
 ![](./assets/img/docker.png)
-
 
 ### MacVim
 
@@ -322,7 +322,6 @@ Slack アプリケーションを作成。
 ```sh
 slack create <app_name>
 ```
-
 
 ### ffmpeg
 
