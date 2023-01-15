@@ -14,11 +14,49 @@ export PATH="$HOME/.local/bin/:$PATH"
 ### 設定
 
 `~/.config/lvim/config.lua` を更新する。
+https://www.lunarvim.org/docs/languages
 
 ```
+lvim.lsp.installer.setup.automatic_installation = true
+
+...
+
 lvim.format_on_save.enabled = true
 lvim.format_on_save = true
+
+...
+
+local formatters = require "lvim.lsp.null-ls.formatters"
+formatters.setup {
+  {
+    command = "prettier",
+    filetypes = {
+      "typescript",
+      "typescriptreact",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "markdown"
+    },
+  },
+}
+
+local linters = require "lvim.lsp.null-ls.linters"
+linters.setup {
+  {
+    command = "eslint",
+    filetypes = {
+      "javascriptreact",
+      "javascript",
+      "typescriptreact",
+      "typescript",
+    },
+  },
+}
 ```
+
+NerdFonts をインストールする。
+https://www.lunarvim.org/docs/configuration/nerd-fonts
 
 ### 起動
 
