@@ -31,12 +31,16 @@ formatters.setup {
   {
     command = "prettier",
     filetypes = {
-      "typescript",
-      "typescriptreact",
       "javascript",
       "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "css",
+      "html",
       "json",
-      "markdown"
+      "yaml",
+      "markdown",
+      "graphql"
     },
   },
 }
