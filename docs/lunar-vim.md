@@ -43,6 +43,15 @@ formatters.setup {
       "graphql"
     },
   },
+  {
+    command = "eslint_d",
+    filetypes = {
+      "javascriptreact",
+      "javascript",
+      "typescriptreact",
+      "typescript",
+    },
+  },
 }
 
 local linters = require "lvim.lsp.null-ls.linters"
@@ -57,6 +66,32 @@ linters.setup {
     },
   },
 }
+
+local code_actions = require "lvim.lsp.null-ls.code_actions"
+code_actions.setup {
+  {
+    command = "eslint",
+    args = { "-f" },
+    filetypes = {
+      "javascriptreact",
+      "javascript",
+      "typescriptreact",
+      "typescript",
+    },
+  },
+}
+```
+
+`eslint_d` をグローバルインストールする。
+
+```sh
+npm install -g eslint_d
+```
+
+code actions を実行する。
+
+```
+:lua vim.lsp.buf.code_action()
 ```
 
 NerdFonts をインストールする。
