@@ -175,9 +175,27 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
+#### brew でインストールするもの
+
+##### diff
+
+Apple-diff だと一部使えないオプションがあるため更新。
+
+```sh
+brew install diffutils
+```
+
+##### Git
+
+Git の脆弱性対応時のアップデート容易性を考慮して更新。
+
+```sh
+brew install git
+```
+
 ### Git / GitHub
 
-`git` は初期からインストールされているので `.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
+`.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
 
 次に GitHub を利用する設定をする。
 
