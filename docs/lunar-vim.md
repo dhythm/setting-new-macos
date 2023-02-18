@@ -82,6 +82,7 @@ code_actions.setup {
   },
 }
 ```
+[参考](https://github.com/dhythm/config-public/blob/master/config.lua)
 
 `eslint_d` をグローバルインストールする。
 
