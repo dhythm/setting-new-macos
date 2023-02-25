@@ -30,6 +30,25 @@ lvim.format_on_save = true
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
   {
+    command = "stylelint",
+    filetypes = {
+      "scss",
+      "less",
+      "css",
+      "sass"
+    },
+    args = { "--fix", "--stdin" }
+  },
+  {
+    command = "eslint_d",
+    filetypes = {
+      "javascriptreact",
+      "javascript",
+      "typescriptreact",
+      "typescript",
+    },
+  },
+  {
     command = "prettier",
     filetypes = {
       "javascript",
@@ -45,13 +64,10 @@ formatters.setup {
     },
   },
   {
-    command = "eslint_d",
+    command = "black",
     filetypes = {
-      "javascriptreact",
-      "javascript",
-      "typescriptreact",
-      "typescript",
-    },
+      "python"
+    }
   },
 }
 
@@ -83,6 +99,7 @@ code_actions.setup {
 }
 ```
 [参考](https://github.com/dhythm/config-public/blob/master/config.lua)
+[参考](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#eslint-2)
 
 `eslint_d` をグローバルインストールする。
 
