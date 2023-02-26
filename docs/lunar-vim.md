@@ -98,8 +98,11 @@ code_actions.setup {
   },
 }
 ```
-[参考](https://github.com/dhythm/config-public/blob/master/config.lua)
-[参考](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#eslint-2)
+formatters/linters/code_actions に利用可能なものは[コチラ](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#eslint-2)を参照。
+
+formatters の設定で prettier を eslint_d より先に記載していた際に auto_fix が動作しないことがあった。
+全体の設定は[コチラ](https://github.com/dhythm/config-public/blob/master/config.lua)。
+
 
 `eslint_d` をグローバルインストールする。
 
