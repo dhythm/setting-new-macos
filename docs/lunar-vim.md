@@ -143,3 +143,7 @@ TypeScript をインストールする。
 :TSInstall typescript
 :TSInstall tsx
 ```
+
+```
+:LspInstall
+```
