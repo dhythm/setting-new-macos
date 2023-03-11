@@ -312,6 +312,13 @@ volta install node@16.12.0
 npm login
 ```
 
+`.npmrc` に設定を追加。
+
+```
+init.license=MTI
+init-version=0.0.1
+```
+
 ### Deno
 
 https://deno.land/manual@v1.29.2/getting_started/installation
