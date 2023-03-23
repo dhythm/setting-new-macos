@@ -97,6 +97,8 @@ code_actions.setup {
     },
   },
 }
+
+lvim.builtin.cmp.formatting.duplicates["nvim_lsp"] = 1
 ```
 formatters/linters/code_actions に利用可能なものは[コチラ](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#eslint-2)を参照。
 
