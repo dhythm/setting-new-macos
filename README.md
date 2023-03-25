@@ -133,7 +133,7 @@
 
 ![](./assets/img/raycast.png)
 
-### Others
+### その他
 
 - [ ] Bear
 - [ ] DeepL
@@ -144,7 +144,7 @@
 - [ ] Spectacle
 - [ ] Zoom
 
-## アプリケーション（開発）
+## 開発環境
 
 ### iTerm2
 
@@ -178,9 +178,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-#### brew でインストールするもの
-
-##### diff
+#### diff
 
 Apple-diff だと一部使えないオプションがあるため更新。
 
@@ -188,12 +186,29 @@ Apple-diff だと一部使えないオプションがあるため更新。
 brew install diffutils
 ```
 
-##### Git
+#### Git
 
 Git の脆弱性対応時のアップデート容易性を考慮して更新。
 
 ```sh
 brew install git
+```
+
+#### ffmpeg
+
+動画変換用のコマンド。
+
+```sh
+brew install ffmpeg
+```
+
+#### act
+
+GitHub Actions をローカルで実行して確認できるアプリケーション。
+[参考](https://www.memory-lovers.blog/entry/2022/11/13/120000)
+
+```sh
+brew install act
 ```
 
 ### Git / GitHub
@@ -238,7 +253,9 @@ SSH keys に取得した公開鍵を貼り付けて保存する。
 
 ![](./assets/img/docker.png)
 
-### MacVim
+### エディタ
+
+#### MacVim
 
 https://github.com/macvim-dev/macvim
 
@@ -252,19 +269,23 @@ https://github.com/macvim-dev/macvim
 - https://github.com/dhythm/config-public/blob/master/.vimrc
 - https://github.com/dhythm/config-public/blob/master/.gvimrc
 
-### NeoVim
+#### NeoVim
 
 [設定](docs/nvim.md)
 
-### LunarVim
+#### LunarVim
 
 [設定](docs/lunar-vim.md)
 
-### VS Code
+#### VS Code
 
 [設定](docs/vscode.md)
 
-### anyenv
+---
+
+### バージョン管理 / プログラミング言語
+
+#### anyenv
 
 https://github.com/anyenv/anyenv
 
@@ -281,7 +302,7 @@ node のバージョンは volta にて管理するため、nodenv はインス�
 
 [python の設定](docs/python.md)
 
-### volta
+#### volta
 
 https://docs.volta.sh/guide/getting-started
 
@@ -300,7 +321,7 @@ init.license=MTI
 init-version=0.0.1
 ```
 
-### Deno
+#### Deno
 
 https://deno.land/manual@v1.29.2/getting_started/installation
 
@@ -314,7 +335,19 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 export PATH="$HOME/.deno/bin:$PATH"
 ```
 
-### Slack for Developer
+#### Rust
+
+https://www.rust-lang.org/tools/install
+
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+---
+
+### その他
+
+#### Slack for Developer
 
 https://api.slack.com/future/quickstart
 
@@ -334,23 +367,7 @@ Slack アプリケーションを作成。
 slack create <app_name>
 ```
 
-### ffmpeg
-
-動画変換用のコマンド。
-
-```sh
-brew install ffmpeg
-```
-
-### act
-
-GitHub Actions をローカルで実行して確認できるアプリケーション。[参考](https://www.memory-lovers.blog/entry/2022/11/13/120000)
-
-```sh
-brew install act
-```
-
-### Others
+#### アプリケーション
 
 - [ ] [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
 - [ ] [Figma](https://www.figma.com/downloads/)
