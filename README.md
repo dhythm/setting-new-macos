@@ -314,7 +314,7 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 export PATH="$HOME/.deno/bin:$PATH"
 ```
 
-### Slack
+### Slack for Developer
 
 https://api.slack.com/future/quickstart
 
@@ -336,7 +336,7 @@ slack create <app_name>
 
 ### ffmpeg
 
-Homebrew を使ってイントールする。
+動画変換用のコマンド。
 
 ```sh
 brew install ffmpeg
@@ -352,8 +352,8 @@ brew install act
 
 ### Others
 
-- [ ] Android Studio
+- [ ] [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
 - [ ] [Figma](https://www.figma.com/downloads/)
 - [ ] [Tandem](https://tandem.chat/welcome/download)
-- [ ] TablePlus
+- [ ] [TablePlus](https://tableplus.com/download)
 - [ ] Xcode
