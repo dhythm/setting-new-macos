@@ -1,6 +1,6 @@
 ## インストール
 
-注）cargo のインストールを先におこなう必要がある。
+注）[cargo](https://www.rust-lang.org/tools/install) のインストールを先におこなう必要がある。
 
 https://www.lunarvim.org/docs/installation
 
