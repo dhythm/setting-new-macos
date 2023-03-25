@@ -353,7 +353,7 @@ brew install act
 ### Others
 
 - [ ] Android Studio
-- [ ] Figma
-- [ ] Tandem
+- [ ] [Figma](https://www.figma.com/downloads/)
+- [ ] [Tandem](https://tandem.chat/welcome/download)
 - [ ] TablePlus
 - [ ] Xcode
