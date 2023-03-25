@@ -21,6 +21,10 @@
 - [VSCodeVim を使う場合](https://github.com/dhythm/config-public/blob/master/vscode/keybindings.json)
 - [VSCode Neovim を使う場合](https://github.com/dhythm/config-public/blob/master/nvim/keybindings.json)
 
+### キーのリピートを有効化
+
+https://vimforvscode.com/enable-key-repeat-vim
+
 ## Extensions
 
 [拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode/extensions.txt)
