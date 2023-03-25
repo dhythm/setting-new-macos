@@ -266,8 +266,8 @@ https://github.com/macvim-dev/macvim
 
 それぞれの設定ファイルは下記の通り。
 
-- https://github.com/dhythm/config-public/blob/master/.vimrc
-- https://github.com/dhythm/config-public/blob/master/.gvimrc
+- [vimrc](https://github.com/dhythm/config-public/blob/master/macvim/vimrc)
+- [gvimrc](https://github.com/dhythm/config-public/blob/master/macvim/gvimrc)
 
 #### NeoVim
 
