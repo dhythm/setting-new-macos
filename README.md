@@ -281,8 +281,6 @@ https://github.com/macvim-dev/macvim
 
 [設定](docs/vscode.md)
 
----
-
 ### バージョン管理 / プログラミング言語
 
 #### anyenv
@@ -342,8 +340,6 @@ https://www.rust-lang.org/tools/install
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-
----
 
 ### その他
 

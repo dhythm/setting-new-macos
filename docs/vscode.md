@@ -12,12 +12,14 @@
 
 - `vscode-neovim.neovimExecutablePaths.darwin` に `which nvim` で取得したパスを設定する
 - `terminal.integrated.fontFamily` にターミナルで設定しているフォントを指定する
-- Operator Mono Lig フォントをインストール（[参考](https://github.com/kiliman/operator-mono-lig)）
+- フォントをインストール
+  - https://github.com/festackcode/dev-fonts
+  - https://github.com/kiliman/operator-mono-lig
 
 ## Keybindings
 
-- [VSCodeVim を使う場合の設定例](https://github.com/dhythm/config-public/blob/master/vscode/keybindings.json)
-- [VSCode Neovim を使う場合の設定例](https://github.com/dhythm/config-public/blob/master/nvim/keybindings.json)
+- [VSCodeVim を使う場合](https://github.com/dhythm/config-public/blob/master/vscode/keybindings.json)
+- [VSCode Neovim を使う場合](https://github.com/dhythm/config-public/blob/master/nvim/keybindings.json)
 
 ## Extensions
 
