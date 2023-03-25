@@ -1,5 +1,7 @@
 ## インストール
 
+注）cargo のインストールを先におこなう必要がある。
+
 https://www.lunarvim.org/docs/installation
 
 ```sh
