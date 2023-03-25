@@ -14,7 +14,7 @@ touch ~/.config/nvim/init.vim
 brew tap daipeihust/tap && brew install im-select
 ```
 
-`init.vim` を作成して、設定を追加する。
+`init.vim` を作成して、設定を追加する。[参考](https://github.com/dhythm/config-public/blob/master/nvim/init.vim)
 
 ```
 " ~/.config/nvim/init.vim
