@@ -14,7 +14,8 @@ export PATH="$HOME/.local/bin/:$PATH"
 
 ### 設定
 
-`~/.config/lvim/config.lua` を更新する。
+`~/.config/lvim/config.lua` を更新する。[参考](https://github.com/dhythm/config-public/blob/master/lvim/config.lua)
+
 https://www.lunarvim.org/docs/languages
 
 ```
@@ -103,7 +104,6 @@ lvim.builtin.cmp.formatting.duplicates["nvim_lsp"] = 1
 formatters/linters/code_actions に利用可能なものは[コチラ](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#eslint-2)を参照。
 
 formatters の設定で prettier を eslint_d より先に記載していた際に auto_fix が動作しないことがあった。
-全体の設定は[コチラ](https://github.com/dhythm/config-public/blob/master/config.lua)。
 
 
 `eslint_d` をグローバルインストールする。
