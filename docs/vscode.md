@@ -1,6 +1,6 @@
 ## 開いているファイルを表示する
 
-サイドバーから `EXPLORER > Open Editors` をチェックする
+サイドバーから `EXPLORER > Open Editors` をチェックする。
 
 ## code コマンドの有効化
 
