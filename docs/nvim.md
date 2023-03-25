@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=stqUbv-5u2s
 
 ```sh
 brew install neovim
-which neovim
+which nvim
 
 mkdir ~/.config/nvim
 touch ~/.config/nvim/init.vim
