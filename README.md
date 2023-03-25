@@ -135,14 +135,14 @@
 
 ### その他
 
-- [ ] Bear
-- [ ] DeepL
-- [ ] Discord
-- [ ] Gapplin
-- [ ] LINE
-- [ ] Slack
-- [ ] Spectacle
-- [ ] Zoom
+- [Bear](https://bear.app/)
+- [DeepL](https://www.deepl.com/en/macos-app/)
+- [Discord](https://discord.com/download)
+- [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
+- [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
+- [Slack](https://slack.com/downloads/mac)
+- [Spectacle](https://www.spectacleapp.com/)
+- [Zoom](https://zoom.us/download)
 
 ## 開発環境
 
@@ -157,13 +157,13 @@
 
 ### Oh My Zsh
 
-注）XCode のインストールを先に実施する必要がある。
-
 https://ohmyz.sh/#install
 
-[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールし、見た目を変更する。
+注）XCode のインストールを先に実施する必要がある。
 
-`.zshrc` を設定する。[参考](https://github.com/dhythm/config-public/blob/master/.zshrc)
+[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストール。
+
+`.zshrc` を[設定](https://github.com/dhythm/config-public/blob/master/.zshrc)。
 
 ### Homebrew
 
@@ -213,7 +213,7 @@ brew install act
 
 ### Git / GitHub
 
-`.gitconfig` の設定をする。[参考](https://github.com/dhythm/config-public/blob/master/.gitconfig)
+`.gitconfig` の[設定](https://github.com/dhythm/config-public/blob/master/.gitconfig)。
 
 次に GitHub を利用する設定をする。
 
@@ -365,8 +365,8 @@ slack create <app_name>
 
 #### アプリケーション
 
-- [ ] [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
-- [ ] [Figma](https://www.figma.com/downloads/)
-- [ ] [Tandem](https://tandem.chat/welcome/download)
-- [ ] [TablePlus](https://tableplus.com/download)
-- [ ] Xcode
+- [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
+- [Figma](https://www.figma.com/downloads/)
+- [Tandem](https://tandem.chat/welcome/download)
+- [TablePlus](https://tableplus.com/download)
+- [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
