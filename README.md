@@ -157,6 +157,8 @@
 
 ### Oh My Zsh
 
+注）XCode のインストールを先に実施する必要がある。
+
 https://ohmyz.sh/#install
 
 [powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストールし、見た目を変更する。
