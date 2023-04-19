@@ -202,6 +202,12 @@ brew install git
 brew install ffmpeg
 ```
 
+#### tree
+
+```sh
+brew install tree
+```
+
 #### act
 
 GitHub Actions をローカルで実行して確認できるアプリケーション。
