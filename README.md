@@ -178,42 +178,21 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-#### diff
-
-Apple-diff だと一部使えないオプションがあるため更新。
-
 ```sh
+# Apple-diff だと一部使えないオプションがあるため更新
 brew install diffutils
-```
 
-#### Git
-
-Git の脆弱性対応時のアップデート容易性を考慮して更新。
-
-```sh
+# Git の脆弱性対応時のアップデート容易性を考慮して更新
 brew install git
-```
 
-#### ffmpeg
-
-動画変換用のコマンド。
-
-```sh
 brew install ffmpeg
-```
 
-#### tree
-
-```sh
 brew install tree
-```
 
-#### act
+brew install jq
 
-GitHub Actions をローカルで実行して確認できるアプリケーション。
-[参考](https://www.memory-lovers.blog/entry/2022/11/13/120000)
-
-```sh
+# GitHub Actions をローカルで実行して確認できるアプリケーション。
+# https://www.memory-lovers.blog/entry/2022/11/13/120000
 brew install act
 ```
 
