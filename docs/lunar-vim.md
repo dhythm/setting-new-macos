@@ -123,6 +123,12 @@ code actions を実行する。
 NerdFonts をインストールする。
 https://www.lunarvim.org/docs/configuration/nerd-fonts
 
+prisma のファイルを開こうとするとエラーが発生するので LSP をインストールする。
+
+```
+:LspInstall prismals
+```
+
 ### 起動
 
 `:e <file_path>` でファイルを読み込む。ファイルのパスに移動する。
