@@ -279,6 +279,7 @@ anyenv install --init
 git clone https://github.com/anyenv/anyenv ~/.anyenv
 
 anyenv install pyenv
+anyenv install rbenv
 ```
 
 node のバージョンは volta にて管理するため、nodenv はインストールしない。
@@ -316,6 +317,12 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 
 ```
 export PATH="$HOME/.deno/bin:$PATH"
+```
+
+#### CocoaPods
+
+```sh
+sudo gem install cocoapods
 ```
 
 #### Rust
