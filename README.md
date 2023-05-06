@@ -333,6 +333,10 @@ sudo xcode-select --switch /Applications/Xcode.app
 sudo xcodebuild -license
 ```
 
+```sh
+bundle install
+```
+
 #### Rust
 
 https://www.rust-lang.org/tools/install
