@@ -325,6 +325,14 @@ export PATH="$HOME/.deno/bin:$PATH"
 sudo gem install cocoapods
 ```
 
+https://stackoverflow.com/questions/50448717/os-pod-install-error-module-glog-cannot-be-installed
+
+```sh
+xcode-select -p
+sudo xcode-select --switch /Applications/Xcode.app
+sudo xcodebuild -license
+```
+
 #### Rust
 
 https://www.rust-lang.org/tools/install
