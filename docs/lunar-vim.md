@@ -18,7 +18,7 @@ export PATH="$HOME/.local/bin/:$PATH"
 
 `~/.config/lvim/config.lua` を更新する。[参考](https://github.com/dhythm/config-public/blob/master/lvim/config.lua)
 
-https://www.lunarvim.org/docs/languages
+https://www.lunarvim.org/docs/configuration/language-features
 
 ```
 lvim.lsp.installer.setup.automatic_installation = true
@@ -126,8 +126,10 @@ https://www.lunarvim.org/docs/configuration/nerd-fonts
 特定の拡張子のファイルを開こうとするとエラーが発生するので LSP をインストールする。
 
 ```
+:Mason
 :LspInstall prismals
 :LspInstall jsonls
+:LspInstall yamlls
 ```
 
 ### 起動
