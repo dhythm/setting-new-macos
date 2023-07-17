@@ -191,6 +191,8 @@ brew install tree
 
 brew install jq
 
+brew install libpq
+
 # GitHub Actions をローカルで実行して確認できるアプリケーション。
 # https://www.memory-lovers.blog/entry/2022/11/13/120000
 brew install act
