@@ -230,6 +230,14 @@ pbcopy < ~/.ssh/id_ed25519.pub
 GitHub のウェブページにアクセスし、`Settings > SSH and GPG keys` を選択。
 SSH keys に取得した公開鍵を貼り付けて保存する。
 
+#### tig のインストール
+
+git browser on console.
+
+```sh
+brew install tig
+```
+
 ### Docker Desktop for Mac
 
 本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
