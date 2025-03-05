@@ -125,119 +125,17 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### ターミナル
 
-#### [iTerm2](./docs/iterm2.md)
+#### [iTerm2](docs/iterm2.md)
 
-#### Oh My Zsh
+#### [Oh My Zsh](docs/oh-my-zsh.md)
 
-https://ohmyz.sh/#install
+#### [Homebrew](docs/homebrew.md)
 
-注）XCode のインストールを先に実施する必要がある。
+#### [Git / GitHub](docs/git-and-github.md)
 
-[powerlevel10k](https://github.com/romkatv/powerlevel10k) をインストール。
+#### [anyenv](docs/anyenv.md)
 
-`.zshrc` を[設定](https://github.com/dhythm/config-public/blob/master/.zshrc)。
-
-#### Homebrew
-
-https://brew.sh/
-
-Xcode Command Line Tools がない場合はインストールされる。
-インストール後、手動でパスを設定する。
-
-```sh
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/USERNAME/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
-```sh
-# Apple-diff だと一部使えないオプションがあるため更新
-brew install diffutils
-
-# Git の脆弱性対応時のアップデート容易性を考慮して更新
-brew install git
-
-brew install ffmpeg
-
-brew install tree
-
-brew install jq
-
-brew install libpq
-
-# GitHub Actions をローカルで実行して確認できるアプリケーション。
-# https://www.memory-lovers.blog/entry/2022/11/13/120000
-brew install act
-```
-
-#### Git / GitHub
-
-`.gitconfig` の[設定](https://github.com/dhythm/config-public/blob/master/.gitconfig)。
-
-次に GitHub を利用する設定をする。
-
-```sh
-ssh-keygen -t ed25519 -C "your_email@example.com"
-eval "$(ssh-agent -s)"
-
-touch ~/.ssh/config
-```
-
-`~/.ssh/config` を設定する。
-
-```
-Host *.github.com
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_ed25519
-```
-
-公開鍵をクリップボードに取得する。
-
-```sh
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-pbcopy < ~/.ssh/id_ed25519.pub
-```
-
-GitHub のウェブページにアクセスし、`Settings > SSH and GPG keys` を選択。
-SSH keys に取得した公開鍵を貼り付けて保存する。
-
-#### anyenv
-
-https://github.com/anyenv/anyenv
-
-```sh
-brew install anyenv
-anyenv init
-anyenv install --init
-git clone https://github.com/anyenv/anyenv ~/.anyenv
-
-anyenv install pyenv
-anyenv install rbenv
-```
-
-node のバージョンは volta にて管理するため、nodenv はインストールしない。
-
-[python の設定](docs/python.md)
-
-#### volta
-
-https://docs.volta.sh/guide/getting-started
-
-```sh
-curl https://get.volta.sh | bash
-
-volta install node@16.12.0
-
-npm login
-```
-
-`.npmrc` に設定を追加。
-
-```
-init.license=MTI
-init-version=0.0.1
-```
+#### [volta](docs/volta.md)
 
 ### エディタ
 
@@ -249,20 +147,7 @@ init-version=0.0.1
 
 #### [LunarVim](docs/lunar-vim.md)
 
-#### MacVim
-
-https://github.com/macvim-dev/macvim
-
-以下の設定ファイルを更新する。
-
-- `/Applications/MacVim.app/Contents/Resources/vim/vimrc`
-- `/Applications/MacVim.app/Contents/Resources/vim/gvimrc`
-
-それぞれの設定ファイルは下記の通り。
-
-- [vimrc](https://github.com/dhythm/config-public/blob/master/macvim/vimrc)
-- [gvimrc](https://github.com/dhythm/config-public/blob/master/macvim/gvimrc)
-
+#### [MacVim](docs/macvim.md)
 
 ### その他
 
