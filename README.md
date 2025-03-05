@@ -52,7 +52,6 @@
 
 - `Key repeat rate` を Fast に設定
 - `Delay until repeat` を Short に設定
-- `Touch Bar Settings... > Touch Bar shows` を `F1, F2, etc. Keys` に変更
 - `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
 - `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
 - `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
@@ -86,6 +85,14 @@
 
 ![](./assets/img/finder_01.png)
 ![](./assets/img/finder_02.png)
+
+### `Applications > Utilities > Terminal.app`
+
+下記のコマンドを実行して PC を再起動。
+
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
 
 ## アプリケーション（一般）
 
