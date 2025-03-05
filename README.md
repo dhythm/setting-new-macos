@@ -98,9 +98,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### ブラウザ
 
-### Google Chrome
+#### Google Chrome
 
-### Sidekick
+#### Sidekick
 
 ##### Settings
 
@@ -127,33 +127,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 #### [iTerm2](./docs/iterm2.md)
 
-### エディタ
-
-#### [VS Code](docs/vscode.md)
-
-#### [Cursor](./docs/cursor.md)
-
-#### [NeoVim](docs/nvim.md)
-
-#### [LunarVim](docs/lunar-vim.md)
-
-
-
-
-### その他
-
-- [Bear](https://bear.app/)
-- [DeepL](https://www.deepl.com/en/macos-app/)
-- [Discord](https://discord.com/download)
-- [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
-- [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
-- [Slack](https://slack.com/downloads/mac)
-- [Zoom](https://zoom.us/download)
-
-## 開発環境
-
-
-### Oh My Zsh
+#### Oh My Zsh
 
 https://ohmyz.sh/#install
 
@@ -163,7 +137,7 @@ https://ohmyz.sh/#install
 
 `.zshrc` を[設定](https://github.com/dhythm/config-public/blob/master/.zshrc)。
 
-### Homebrew
+#### Homebrew
 
 https://brew.sh/
 
@@ -196,7 +170,7 @@ brew install libpq
 brew install act
 ```
 
-### Git / GitHub
+#### Git / GitHub
 
 `.gitconfig` の[設定](https://github.com/dhythm/config-public/blob/master/.gitconfig)。
 
@@ -227,43 +201,6 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 GitHub のウェブページにアクセスし、`Settings > SSH and GPG keys` を選択。
 SSH keys に取得した公開鍵を貼り付けて保存する。
-
-#### tig のインストール
-
-git browser on console.
-
-```sh
-brew install tig
-```
-
-### Docker Desktop for Mac
-
-本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
-
-- CPUs: 4
-- Memory: 8 GB
-- Swap: 1 GB
-
-![](./assets/img/docker.png)
-
-### エディタ
-
-#### MacVim
-
-https://github.com/macvim-dev/macvim
-
-以下の設定ファイルを更新する。
-
-- `/Applications/MacVim.app/Contents/Resources/vim/vimrc`
-- `/Applications/MacVim.app/Contents/Resources/vim/gvimrc`
-
-それぞれの設定ファイルは下記の通り。
-
-- [vimrc](https://github.com/dhythm/config-public/blob/master/macvim/vimrc)
-- [gvimrc](https://github.com/dhythm/config-public/blob/master/macvim/gvimrc)
-
-
-### バージョン管理 / プログラミング言語
 
 #### anyenv
 
@@ -302,45 +239,52 @@ init.license=MTI
 init-version=0.0.1
 ```
 
-#### Deno
+### エディタ
 
-https://deno.land/manual@v1.29.2/getting_started/installation
+#### [Visual Studio Code](docs/vscode.md)
 
-```sh
-curl -fsSL https://deno.land/x/install/install.sh | sh
-```
+#### [Cursor](./docs/cursor.md)
 
-`.zshrc` にパスを追加する。
+#### [NeoVim](docs/nvim.md)
 
-```
-export PATH="$HOME/.deno/bin:$PATH"
-```
+#### [LunarVim](docs/lunar-vim.md)
 
-#### CocoaPods
+#### MacVim
 
-```sh
-sudo gem install cocoapods
-```
+https://github.com/macvim-dev/macvim
 
-https://stackoverflow.com/questions/50448717/os-pod-install-error-module-glog-cannot-be-installed
+以下の設定ファイルを更新する。
 
-```sh
-xcode-select -p
-sudo xcode-select --switch /Applications/Xcode.app
-sudo xcodebuild -license
-```
+- `/Applications/MacVim.app/Contents/Resources/vim/vimrc`
+- `/Applications/MacVim.app/Contents/Resources/vim/gvimrc`
 
-```sh
-bundle install
-```
+それぞれの設定ファイルは下記の通り。
 
-#### Rust
+- [vimrc](https://github.com/dhythm/config-public/blob/master/macvim/vimrc)
+- [gvimrc](https://github.com/dhythm/config-public/blob/master/macvim/gvimrc)
 
-https://www.rust-lang.org/tools/install
 
-```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
+### その他
+
+- [Bear](https://bear.app/)
+- [DeepL](https://www.deepl.com/en/macos-app/)
+- [Discord](https://discord.com/download)
+- [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
+- [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
+- [Slack](https://slack.com/downloads/mac)
+- [Zoom](https://zoom.us/download)
+
+
+
+### Docker Desktop for Mac
+
+本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
+
+- CPUs: 4
+- Memory: 8 GB
+- Swap: 1 GB
+
+![](./assets/img/docker.png)
 
 ### その他
 
