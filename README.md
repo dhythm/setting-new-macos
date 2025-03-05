@@ -94,7 +94,9 @@
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
-## アプリケーション（一般）
+## アプリケーション
+
+### ブラウザ
 
 ### Google Chrome
 
@@ -117,28 +119,26 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - `chrome://flags/` で `Password import` を Enabled に変更（要：再起動）
 - `Settings > Autofill > Password Manager > Saved Passwords` から `Import passwords...` を実行
 
-##### Extensions
+### 業務効率化
 
-- [ ] AutoPagerize
-- [ ] DeepL Translate
-- [ ] Douga Getter
-- [ ] EyeDropper
-- [ ] Google Translate
-- [ ] Grammarly
-- [ ] Keepa
-- [ ] LastPass
-- [ ] Lighthouse
-- [ ] React Developer Tools
-- [ ] Video Speed Controller
-- [ ] Vimium
-- [ ] Wappalyzer
-- [ ] WhatFont
+#### [Raycast](docs/raycast.md)
 
-### Raycast
+### ターミナル
 
-- `General > Reycast Hotkey` を `Ctrl + Space` に変更
+#### [iTerm2](./docs/iterm2.md)
 
-![](./assets/img/raycast.png)
+### エディタ
+
+#### [VS Code](docs/vscode.md)
+
+#### [Cursor](./docs/cursor.md)
+
+#### [NeoVim](docs/nvim.md)
+
+#### [LunarVim](docs/lunar-vim.md)
+
+
+
 
 ### その他
 
@@ -148,19 +148,10 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
 - [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
 - [Slack](https://slack.com/downloads/mac)
-- [Spectacle](https://www.spectacleapp.com/)
 - [Zoom](https://zoom.us/download)
 
 ## 開発環境
 
-### iTerm2
-
-- `Preferences > Profiles > Text` の `Cursor` を Underline に変更
-- `Preferences > Profiles > Text` の `Blinking cursor` を ON に変更
-- `Preferences > Profiles > Window` の `Transparency` を変更（Oh My Zsh の設定で透過対応が必要）
-- `Preferences > Profiles > Session` の `Automatically log session input to files in:` にチェックをつけてログを取得
-
-![](./assets/img/iterm2.png)
 
 ### Oh My Zsh
 
@@ -271,17 +262,6 @@ https://github.com/macvim-dev/macvim
 - [vimrc](https://github.com/dhythm/config-public/blob/master/macvim/vimrc)
 - [gvimrc](https://github.com/dhythm/config-public/blob/master/macvim/gvimrc)
 
-#### NeoVim
-
-[設定](docs/nvim.md)
-
-#### LunarVim
-
-[設定](docs/lunar-vim.md)
-
-#### VS Code
-
-[設定](docs/vscode.md)
 
 ### バージョン管理 / プログラミング言語
 
