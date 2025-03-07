@@ -141,10 +141,10 @@ https://www.lunarvim.org/docs/configuration/nerd-fonts
 `:echo mapleader` で `<leader>` の表示ができる。
 `<leader>e` でサイドバーを表示する。
 
-タブとして表示されているものはバッファ機能が利用されている。
-`<leader>bb` もしくは `:bnext` で次のバッファに移動可能。
+タブとして表示されているものはバッファー機能が利用されている。
+`<leader>bb` もしくは `:bnext` で次のバッファーに移動可能。
 
-バッファを確認する場合は `:ls`、消す場合は `:bw <number>` を実行する。
+バッファーを確認する場合は `:ls`、消す場合は `:bw <number>` を実行する。
 
 ### 開発
 

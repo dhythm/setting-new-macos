@@ -148,7 +148,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
 
-### エディタ
+### エディター
 
 ##### [Visual Studio Code](docs/vscode.md)
 
