@@ -5,7 +5,7 @@ Chromium ベースのブラウザ。
 
 ## 設定
 
-Google アカウントでログインするすると設定を共有可能。
+Google アカウントでログインすると設定を共有可能。
 `Settings > Profile > Sync and services` にて設定を同期させる。
 
 ### `Sync Settings`
