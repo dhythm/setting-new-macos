@@ -25,7 +25,6 @@
 
 ![](./assets/img/trackpad.png)
 
-
 ### `System Settings > General`
 
 - `About > name` で変更
@@ -89,7 +88,7 @@
 
 ### `Applications > Utilities > Terminal.app`
 
-下記のコマンドを実行して PC を再起動。
+下記のコマンドを実行して PC を再起動。（[参考](https://vimforvscode.com/enable-key-repeat-vim)）
 
 ```
 defaults write -g ApplePressAndHoldEnabled -bool false
@@ -123,11 +122,17 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 #### [volta](docs/volta.md)
 
+### フォント
+
+#### [Operator Mono Ligatures](docs/operator-mono-lig.md)
+
+#### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
+
 ### エディタ
 
 #### [Visual Studio Code](docs/vscode.md)
 
-#### [Cursor](./docs/cursor.md)
+#### [Cursor](docs/cursor.md)
 
 #### [NeoVim](docs/nvim.md)
 
@@ -144,8 +149,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
 - [Slack](https://slack.com/downloads/mac)
 - [Zoom](https://zoom.us/download)
-
-
 
 ### Docker Desktop for Mac
 

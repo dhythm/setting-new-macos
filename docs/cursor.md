@@ -1,6 +1,4 @@
-# Cursor とは
-
-
+# Cursor
 
 ## 設定
 
@@ -8,8 +6,8 @@
 
 ```json
 {
-    "window.commandCenter": 1,
-    "workbench.activityBar.orientation": "vertical"
+  "window.commandCenter": 1,
+  "workbench.activityBar.orientation": "vertical"
 }
 ```
 

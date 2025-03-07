@@ -1,4 +1,4 @@
-# About Volta
+# Volta
 
 Node のバージョン管理ツール。
 https://docs.volta.sh/guide/getting-started

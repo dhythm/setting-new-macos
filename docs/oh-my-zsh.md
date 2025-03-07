@@ -1,4 +1,4 @@
-# About Oh My Zsh
+# Oh My Zsh
 
 Zsh の見た目を変更し、よりターミナルの操作内容をわかりやすくカスタマイズできる OSS。
 

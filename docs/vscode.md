@@ -1,30 +1,29 @@
-## 開いているファイルを表示する
+# VSCode
 
-サイドバーから `EXPLORER > Open Editors` をチェックする。
+## 設定
 
-## code コマンドの有効化
+### 開いているファイルを表示する
 
-コマンドパレットを起動（`Cmd+Shift+P`）し、`Shell Command: Install 'code' command PATH` を実行する。
+サイドバーから `EXPLORER > Open Editors` をチェック。
 
-## setting.json
+![](../assets/img/vscode_01.png)
+
+### code コマンドの有効化
+
+`Cmd+Shift+P > Shell Command: Install 'code' command PATH` を実行。
+
+### settings.json
 
 [設定例](https://github.com/dhythm/config-public/blob/master/vscode/settings.json)
 
 - `vscode-neovim.neovimExecutablePaths.darwin` に `which nvim` で取得したパスを設定する
 - `terminal.integrated.fontFamily` にターミナルで設定しているフォントを指定する
-- フォントをインストール
-  - https://github.com/festackcode/dev-fonts
-  - https://github.com/kiliman/operator-mono-lig
 
-## Keybindings
+### Keybindings
 
 - [VSCodeVim を使う場合](https://github.com/dhythm/config-public/blob/master/vscode/keybindings.json)
 - [VSCode Neovim を使う場合](https://github.com/dhythm/config-public/blob/master/nvim/keybindings.json)
 
-### キーのリピートを有効化
-
-https://vimforvscode.com/enable-key-repeat-vim
-
-## Extensions
+### Extensions
 
 [拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode/extensions.txt)

@@ -1,3 +1,5 @@
+# NeoVim
+
 ## インストール
 
 Neovim をインストールする。[参考](https://www.sambaiz.net/article/398/)

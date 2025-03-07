@@ -1,3 +1,5 @@
+# MacVim
+
 ## 設定
 
 https://github.com/macvim-dev/macvim
@@ -11,4 +13,3 @@ https://github.com/macvim-dev/macvim
 
 - [vimrc](https://github.com/dhythm/config-public/blob/master/macvim/vimrc)
 - [gvimrc](https://github.com/dhythm/config-public/blob/master/macvim/gvimrc)
-

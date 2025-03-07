@@ -1,3 +1,5 @@
+# iTerm2
+
 ## 設定
 
 - `Preferences > Appearance > General > Theme` を Dark (High Contrast) に変更

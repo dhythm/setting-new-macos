@@ -1,3 +1,5 @@
+# LunarVim
+
 ## インストール
 
 注）[cargo](https://www.rust-lang.org/tools/install) のインストールを先におこなう必要がある。
@@ -103,10 +105,10 @@ code_actions.setup {
 
 lvim.builtin.cmp.formatting.duplicates["nvim_lsp"] = 1
 ```
+
 formatters/linters/code_actions に利用可能なものは[コチラ](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#eslint-2)を参照。
 
 formatters の設定で prettier を eslint_d より先に記載していた際に auto_fix が動作しないことがあった。
-
 
 `eslint_d` をグローバルインストールする。
 
