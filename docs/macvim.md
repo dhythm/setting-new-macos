@@ -1,8 +1,10 @@
 # MacVim
 
-## 設定
+## インストール
 
 https://github.com/macvim-dev/macvim
+
+## 設定
 
 以下の設定ファイルを更新する。
 

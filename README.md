@@ -102,11 +102,31 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 #### [Sidekick](docs/sidekick.md)
 
-### 業務効率化
+### 効率化
 
 #### [Raycast](docs/raycast.md)
 
 #### [ChatGPT](docs/chat-gpt.md)
+
+#### [DeepL](https://www.deepl.com/en/macos-app/)
+
+### 画像
+
+#### [ToyViewer](https://apps.apple.com/jp/app/toyviewer/id414298354?l=en-US&mt=12)
+
+#### [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
+
+### コミュニケーション
+
+#### [Slack](https://slack.com/downloads/mac)
+
+#### [Zoom](https://zoom.us/download)
+
+#### [Discord](https://discord.com/download)
+
+#### [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
+
+#### [Tandem](https://tandem.chat/welcome/download)
 
 ### ターミナル
 
@@ -134,31 +154,29 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 #### [Cursor](docs/cursor.md)
 
+#### [Bear](https://bear.app/)
+
+#### [MacVim](docs/macvim.md)
+
 #### [NeoVim](docs/nvim.md)
 
 #### [LunarVim](docs/lunar-vim.md)
 
-#### [MacVim](docs/macvim.md)
+#### [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
 
-### その他
+#### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
-- [Bear](https://bear.app/)
-- [DeepL](https://www.deepl.com/en/macos-app/)
-- [Discord](https://discord.com/download)
-- [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
-- [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
-- [Slack](https://slack.com/downloads/mac)
-- [Zoom](https://zoom.us/download)
+### 開発環境・ツール
 
-### Docker Desktop for Mac
+#### [Docker Desktop for Mac](docs/docker.md)
 
-本体のリソースを消費しすぎないよう、`Preferences > Resources` をチェックする。
+#### [Figma](https://www.figma.com/downloads/)
 
-- CPUs: 4
-- Memory: 8 GB
-- Swap: 1 GB
+#### [DBeaver](https://dbeaver.io/)
 
-![](./assets/img/docker.png)
+#### [TablePlus](https://tableplus.com/download)
+
+#### [Sequel Pro](https://sequelpro.com/)
 
 ### その他
 
@@ -181,11 +199,3 @@ Slack アプリケーションを作成。
 ```sh
 slack create <app_name>
 ```
-
-#### アプリケーション
-
-- [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
-- [Figma](https://www.figma.com/downloads/)
-- [Tandem](https://tandem.chat/welcome/download)
-- [TablePlus](https://tableplus.com/download)
-- [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
