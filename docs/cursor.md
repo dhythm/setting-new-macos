@@ -2,7 +2,7 @@
 
 ## 設定
 
-`Cmd + Shift + P` > `Shell Command: Install 'cursor' command` を実行。
+`Cmd + Shift + P > Shell Command: Install 'cursor' command` を実行。
 
 ```json
 {
