@@ -104,79 +104,85 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### 効率化
 
-#### [Raycast](docs/raycast.md)
+##### [Raycast](docs/raycast.md)
 
-#### [ChatGPT](docs/chat-gpt.md)
+##### [ChatGPT](docs/chat-gpt.md)
 
-#### [DeepL](https://www.deepl.com/en/macos-app/)
+##### [DeepL](https://www.deepl.com/en/macos-app/)
 
 ### 画像
 
-#### [ToyViewer](https://apps.apple.com/jp/app/toyviewer/id414298354?l=en-US&mt=12)
+##### [ToyViewer](https://apps.apple.com/jp/app/toyviewer/id414298354?l=en-US&mt=12)
 
-#### [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
+##### [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
 
 ### コミュニケーション
 
-#### [Slack](https://slack.com/downloads/mac)
+##### [Slack](https://slack.com/downloads/mac)
 
-#### [Zoom](https://zoom.us/download)
+##### [Zoom](https://zoom.us/download)
 
-#### [Discord](https://discord.com/download)
+##### [Discord](https://discord.com/download)
 
-#### [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
+##### [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
 
-#### [Tandem](https://tandem.chat/welcome/download)
+##### [Tandem](https://tandem.chat/welcome/download)
 
 ### ターミナル
 
-#### [iTerm2](docs/iterm2.md)
+##### [iTerm2](docs/iterm2.md)
 
-#### [Oh My Zsh](docs/oh-my-zsh.md)
+##### [Oh My Zsh](docs/oh-my-zsh.md)
 
-#### [Homebrew](docs/homebrew.md)
+##### [Homebrew](docs/homebrew.md)
 
-#### [Git / GitHub](docs/git-and-github.md)
+##### [Git / GitHub](docs/git-and-github.md)
 
-#### [anyenv](docs/anyenv.md)
+##### [anyenv](docs/anyenv.md)
 
-#### [volta](docs/volta.md)
+##### [volta](docs/volta.md)
 
 ### フォント
 
-#### [Operator Mono Ligatures](docs/operator-mono-lig.md)
+##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
 
-#### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
+##### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
 
 ### エディタ
 
-#### [Visual Studio Code](docs/vscode.md)
+##### [Visual Studio Code](docs/vscode.md)
 
-#### [Cursor](docs/cursor.md)
+##### [Cursor](docs/cursor.md)
 
-#### [Bear](https://bear.app/)
+##### [Bear](https://bear.app/)
 
-#### [MacVim](docs/macvim.md)
+#### Vim 関連
 
-#### [NeoVim](docs/nvim.md)
+##### [MacVim](docs/macvim.md)
 
-#### [LunarVim](docs/lunar-vim.md)
+##### [NeoVim](docs/nvim.md)
 
-#### [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
+##### [LunarVim](docs/lunar-vim.md)
 
-#### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+#### モバイル開発
+
+##### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+
+##### [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
 
 ### 開発環境・ツール
 
-#### [Docker Desktop for Mac](docs/docker.md)
+##### [Docker Desktop for Mac](docs/docker.md)
 
-#### [Figma](https://www.figma.com/downloads/)
+##### [Figma](https://www.figma.com/downloads/)
 
-#### [DBeaver](https://dbeaver.io/)
+#### データベース
 
-#### [TablePlus](https://tableplus.com/download)
+##### [DBeaver](https://dbeaver.io/)
 
-#### [Sequel Pro](https://sequelpro.com/)
+##### [TablePlus](https://tableplus.com/download)
+
+##### [Sequel Pro](https://sequelpro.com/)
 
 ### その他
 
