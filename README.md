@@ -2,6 +2,30 @@
 
 ## 設定
 
+### `System Settings > Keyboard`
+
+- `Key repeat rate` を Fast に設定
+- `Delay until repeat` を Short に設定
+- `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
+- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
+- `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
+- `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
+
+![](./assets/img/keyboard_01.png)
+![](./assets/img/keyboard_02.png)
+![](./assets/img/keyboard_03.png)
+![](./assets/img/keyboard_04.png)
+![](./assets/img/keyboard_05.png)
+
+### `System Settings > Trackpad`
+
+- `Tracking speed` を Fast に設定
+- `Look up & data detectors` を `Tap with Three Fingers` に変更
+- `Tap to click` を ON に設定
+
+![](./assets/img/trackpad.png)
+
+
 ### `System Settings > General`
 
 - `About > name` で変更
@@ -48,29 +72,6 @@
 
 - Apple Watch で Mac のアンロックを有効にする
 
-### `System Settings > Keyboard`
-
-- `Key repeat rate` を Fast に設定
-- `Delay until repeat` を Short に設定
-- `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
-- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
-- `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
-- `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
-
-![](./assets/img/keyboard_01.png)
-![](./assets/img/keyboard_02.png)
-![](./assets/img/keyboard_03.png)
-![](./assets/img/keyboard_04.png)
-![](./assets/img/keyboard_05.png)
-
-### `System Settings > Trackpad`
-
-- `Tracking speed` を Fast に設定
-- `Look up & data detectors` を `Tap with Three Fingers` に変更
-- `Tap to click` を ON に設定
-
-![](./assets/img/trackpad.png)
-
 ### `System Settings > Privacy & Security`
 
 - `FileVault` が Turn On であることを確認（デフォルト設定）
@@ -98,30 +99,15 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### ブラウザ
 
-#### Google Chrome
+#### [Google Chrome](docs/google-chrome.md)
 
-#### Sidekick
-
-##### Settings
-
-- Google account でログインすることで設定を共有
-
-##### Bookmarks
-
-- 2022/12 時点では同期されない
-- 旧 PC の Bookmark Manager から export
-- 新 PC で `Bookmarks > Import Bookmarks and Settings...` にて import
-
-##### Passwords
-
-- 2022/12 時点では同期されない
-- `Settings > Autofill > Password Manager > Saved Passwords` から `Export passwords...` を実行
-- `chrome://flags/` で `Password import` を Enabled に変更（要：再起動）
-- `Settings > Autofill > Password Manager > Saved Passwords` から `Import passwords...` を実行
+#### [Sidekick](docs/sidekick.md)
 
 ### 業務効率化
 
 #### [Raycast](docs/raycast.md)
+
+#### [ChatGPT](docs/chat-gpt.md)
 
 ### ターミナル
 
