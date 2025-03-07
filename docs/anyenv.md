@@ -1,17 +1,23 @@
-## 設定
 
-https://github.com/anyenv/anyenv
+## インストール
+
+[公式ページ](https://github.com/anyenv/anyenv)にある方法でインストールする。
 
 ```sh
 brew install anyenv
+```
+
+## 設定
+
+```sh
 anyenv init
 anyenv install --init
-git clone https://github.com/anyenv/anyenv ~/.anyenv
-
 anyenv install pyenv
 anyenv install rbenv
 ```
 
+### Node.js
+
 node のバージョンは volta にて管理するため、nodenv はインストールしない。
 
-[python の設定](./python.md)
+### [Python](./python.md)
