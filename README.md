@@ -98,9 +98,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### ブラウザ
 
-#### [Google Chrome](docs/google-chrome.md)
+##### [Google Chrome](docs/google-chrome.md)
 
-#### [Sidekick](docs/sidekick.md)
+##### [Sidekick](docs/sidekick.md)
 
 ### 効率化
 
