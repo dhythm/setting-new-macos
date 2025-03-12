@@ -18,3 +18,5 @@
 osascript -e 'id of app "Cursor.app"'
 defaults write <表示されたドメイン名> ApplePressAndHoldEnabled -bool false
 ```
+
+## 参考リンク

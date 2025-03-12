@@ -108,6 +108,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [ChatGPT](docs/chat-gpt.md)
 
+##### [Obsidian](docs/obsidian.md)
+
 ##### [DeepL](https://www.deepl.com/en/macos-app/)
 
 ### 画像
