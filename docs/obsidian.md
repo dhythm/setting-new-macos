@@ -2,16 +2,33 @@
 
 思考整理ツール。個人用の Notion に近い。
 
+## ディレクトリ構成
+
+```
+.
+├── Zettelkasten/
+│   ├── FleetingNote/
+│   ├── IndexNote/
+│   ├── LiteratureNote/
+│   ├── PermanentNote/
+│   └── Zettelkastenの運用/
+├── Memo/
+└── Template/
+```
+
 ## Tools
 
 ### [obsidian-web-clipper](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
 
 任意のページを保存するための Chrome 拡張。
+保存先を設定する。
+
+![](../assets/img/obsidian_extensions_clipper_01.png)
 
 ### [obsidian-git](https://github.com/Vinzent03/obsidian-git)
 
-![](../assets/img/obsidian_extensions_git_01.png)
-![](../assets/img/obsidian_extensions_git_02.png)
+![](../assets/img/obsidian_tools_git_01.png)
+![](../assets/img/obsidian_tools_git_02.png)
 
 https://publish.obsidian.md/git-doc/Getting+Started
 Git を使うための[認証設定](https://publish.obsidian.md/git-doc/Authentication#macOS)を行う。
@@ -22,7 +39,7 @@ git config --global credential.helper osxkeychain
 
 自動コミット・プッシュを有効化し、コミット・プルの間隔を設定する。
 
-![](../assets/img/obsidian_extensions_git_03.png)
+![](../assets/img/obsidian_tools_git_03.png)
 
 ## 参考
 
