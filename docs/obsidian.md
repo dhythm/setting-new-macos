@@ -43,6 +43,10 @@ git config --global credential.helper osxkeychain
 
 ### [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 
+`Enable JavaScript Queries` をオンにする。
+
+![](../assets/img/obsidian_extensions_dataview_01.png)
+
 ## 参考
 
 - [メモ管理は Obsidian in Cursor が最強](https://note.com/shotovim/n/na1d91f10c1d0)
