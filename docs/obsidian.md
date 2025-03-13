@@ -32,7 +32,7 @@
 ### [obsidian-web-clipper](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
 
 任意のページを保存するための Chrome 拡張。
-保存先を設定する。
+保存先を設定し、プロパティを追加して画像のパスを設定する。
 
 ![](../assets/img/obsidian_extensions_clipper_01.png)
 
