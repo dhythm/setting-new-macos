@@ -41,6 +41,8 @@ git config --global credential.helper osxkeychain
 
 ![](../assets/img/obsidian_tools_git_03.png)
 
+### [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+
 ## 参考
 
 - [メモ管理は Obsidian in Cursor が最強](https://note.com/shotovim/n/na1d91f10c1d0)
