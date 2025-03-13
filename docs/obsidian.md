@@ -16,6 +16,17 @@
 └── Template/
 ```
 
+## 設定
+
+### CSS snippets の使い方
+
+`.obsidian/snippets` に CSS ファイルを配置する。
+`Settings > Appearance > CSS Snippets` で CSS ファイルを有効化する。
+
+![](../assets/img/obsidian_extensions_css_snippets_01.png)
+
+
+
 ## Tools
 
 ### [obsidian-web-clipper](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
@@ -46,6 +57,24 @@ git config --global credential.helper osxkeychain
 `Enable JavaScript Queries` をオンにする。
 
 ![](../assets/img/obsidian_extensions_dataview_01.png)
+
+~~~
+```dataviewjs
+dv.table(
+  ["画像", "ノート", "作成日"],
+  dv.pages("#clippings")
+    .sort(b => b.file.cday, 'desc')
+    .map(b => {
+      console.log(b)
+      return [
+        b.image ? ("![](" + b.image + ")") : "画像なし",
+        b.file.link,
+        b.file.cday
+      ]
+    })
+)
+```
+~~~
 
 ## 参考
 
