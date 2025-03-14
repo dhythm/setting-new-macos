@@ -18,14 +18,18 @@
 
 ## 設定
 
+### Themes
+
+人気のある Minimal に変更。
+
+![](../assets/img/obsidian_settings_themes_01.png)
+
 ### CSS snippets の使い方
 
 `.obsidian/snippets` に CSS ファイルを配置する。
 `Settings > Appearance > CSS Snippets` で CSS ファイルを有効化する。
 
 ![](../assets/img/obsidian_extensions_css_snippets_01.png)
-
-
 
 ## Tools
 
@@ -58,7 +62,7 @@ git config --global credential.helper osxkeychain
 
 ![](../assets/img/obsidian_extensions_dataview_01.png)
 
-~~~
+````
 ```dataviewjs
 dv.table(
   ["画像", "ノート", "作成日"],
@@ -74,7 +78,7 @@ dv.table(
     })
 )
 ```
-~~~
+````
 
 ## 参考
 
