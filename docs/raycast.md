@@ -10,7 +10,7 @@
 
 ### [Color Picker](https://www.raycast.com/thomas/color-picker)
 
-Hotkey を設定（`⌘ + P`）
+Hotkey を設定（`^ + P`）
 
 ![](../assets/img/raycast_extensions_color_picker_01.png)
 
