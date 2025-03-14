@@ -24,6 +24,14 @@
 
 ![](../assets/img/obsidian_settings_themes_01.png)
 
+### Backlinks
+
+![](../assets/img/obsidian_settings_backlinks_01.png)
+
+### Daily Notes
+
+![](../assets/img/obsidian_settings_daily_notes_01.png)
+
 ### CSS snippets の使い方
 
 `.obsidian/snippets` に CSS ファイルを配置する。
