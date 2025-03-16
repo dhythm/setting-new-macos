@@ -90,6 +90,10 @@ dv.table(
 
 ### [Multi-column Markdown](https://github.com/ckRobinson/multi-column-markdown)
 
+### [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+
+### [Diagrams](https://github.com/zapthedingbat/drawio-obsidian)
+
 ## 参考
 
 - [メモ管理は Obsidian in Cursor が最強](https://note.com/shotovim/n/na1d91f10c1d0)
