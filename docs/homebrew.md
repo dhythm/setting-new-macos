@@ -35,6 +35,9 @@ brew install jq
 # For PostgreSQL
 brew install libpq
 
+# For dependency-cruiser
+brew install graphviz
+
 # GitHub Actions をローカルで実行して確認できるアプリケーション。
 # https://www.memory-lovers.blog/entry/2022/11/13/120000
 brew install act

@@ -10,7 +10,8 @@
 
 ### [Color Picker](https://www.raycast.com/thomas/color-picker)
 
-Hotkey を設定（`⌘ + P`）
+Hotkey を設定（`⌥ + P`）。
+`⌘ + P` は VS Code のファイルを開く、`^ + P` はターミナルの履歴を戻る機能に設定しているので、競合を回避。
 
 ![](../assets/img/raycast_extensions_color_picker_01.png)
 
