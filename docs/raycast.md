@@ -31,7 +31,7 @@ Hotkey を設定（`⌘ + ⌘`）
 ### Calender
 
 標準でインストールされている。
-カレンダーを同期させることで、Zoom / Meets など、予定に登録されているオンライン会議に直接参加できる。
+カレンダーを同期させることで、Zoom / Meets など、予定に登録されているオンライン会議に直接参加できる（Mac の Calender に Google アカウントの連携が必要）
 
 ![](../assets/img/raycast_extensions_calender_01.png)
 
