@@ -28,3 +28,9 @@ init.git.remote=https://github.com/dhythm/init.git
 init.git.branch=main
 init.git.ignore=node_modules
 ```
+
+### pnpm
+
+```sh
+volta install pnpm
+```
