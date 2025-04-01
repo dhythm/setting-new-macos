@@ -114,6 +114,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [DeepL](https://www.deepl.com/en/macos-app/)
 
+##### [Kindle](https://apps.apple.com/jp/app/amazon-kindle/id302584613?l=en-US)
+
 ### 画像
 
 ##### [ToyViewer](https://apps.apple.com/jp/app/toyviewer/id414298354?l=en-US&mt=12)
