@@ -148,6 +148,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [volta](docs/volta.md)
 
+##### [AWS cli](docs/aws-cli.md)
+
 ### フォント
 
 ##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
