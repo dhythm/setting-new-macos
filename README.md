@@ -152,6 +152,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [AWS cli](docs/aws-cli.md)
 
+##### [Slack for Developer](docs/slack-for-developer.md)
+
 ### フォント
 
 ##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
@@ -165,8 +167,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ##### [Cursor](docs/cursor.md)
 
 ##### [Bear](https://bear.app/)
-
-#### Vim 関連
 
 ##### [MacVim](docs/macvim.md)
 
@@ -196,22 +196,4 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### その他
 
-#### Slack for Developer
-
-https://api.slack.com/future/quickstart
-
-```sh
-curl -fsSL https://downloads.slack-edge.com/slack-cli/install.sh | bash
-```
-
-表示されるスラッシュコマンドを Slack で実行。
-
-```sh
-/slackauthticket xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-Slack アプリケーションを作成。
-
-```sh
-slack create <app_name>
-```
+##### [1Password](https://1password.com/jp/downloads/mac)
