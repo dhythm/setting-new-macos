@@ -120,6 +120,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [ToyViewer](https://apps.apple.com/jp/app/toyviewer/id414298354?l=en-US&mt=12)
 
+##### [Skitch](docs/skitch.md)
+
 ##### [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
 
 ### コミュニケーション
