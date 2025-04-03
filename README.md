@@ -196,4 +196,4 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### その他
 
-##### [1Password](https://1password.com/jp/downloads/mac)
+##### [1Password](docs/1password.md)
