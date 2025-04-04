@@ -22,7 +22,11 @@ https://github.com/python-poetry/poetry
 
 ```sh
 curl -sSL https://install.python-poetry.org | python3 -
-echo '# poetry\nexport PATH="$HOME/.local/bin/:$PATH"' >> ~/.zshrc
+# or
+pipx install poetry
+
+mkdir $ZSH_CUSTOM/plugins/poetry
+poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 ```
 
 #### 使い方
