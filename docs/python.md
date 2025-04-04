@@ -32,6 +32,10 @@ poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 #### 使い方
 
 ```sh
+poetry config virtualenvs.in-project true
+```
+
+```sh
 poetry new <project>
 
 poetry install
