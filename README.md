@@ -174,17 +174,19 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [LunarVim](docs/lunar-vim.md)
 
-#### モバイル開発
-
-##### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
-
-##### [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
-
 ### 開発環境・ツール
 
 ##### [Docker Desktop for Mac](docs/docker.md)
 
 ##### [Figma](https://www.figma.com/downloads/)
+
+##### [Python](docs/python.md)
+
+#### モバイル開発
+
+##### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+
+##### [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
 
 #### データベース
 

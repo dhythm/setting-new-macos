@@ -29,6 +29,7 @@ echo '# poetry\nexport PATH="$HOME/.local/bin/:$PATH"' >> ~/.zshrc
 
 ```sh
 poetry new <project>
+
 poetry install
 poetry add <package>
 poetry run python <program>
@@ -36,4 +37,23 @@ poetry run python <program>
 
 ### uv
 
+#### インストール
+
 https://github.com/astral-sh/uv
+
+```sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv self update
+```
+
+#### 使い方
+
+```sh
+uv init <project>
+
+uv sync
+uv add <package>
+uv add --dev <package>
+uv remove <package>
+uv run <program>
+```
