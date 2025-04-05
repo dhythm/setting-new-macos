@@ -64,6 +64,8 @@ git config --global credential.helper osxkeychain
 
 ![](../assets/img/obsidian_tools_git_03.png)
 
+`.obsidian/workspace.json` はウィンドウの状態や履歴を保存する一時的なファイルであることから、`.gitignore` に追加して Git 管理から外す。
+
 ### [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 
 `Enable JavaScript Queries` をオンにする。

@@ -41,4 +41,7 @@ brew install graphviz
 # GitHub Actions をローカルで実行して確認できるアプリケーション。
 # https://www.memory-lovers.blog/entry/2022/11/13/120000
 brew install act
+
+# 形態素解析
+brew install mecab mecab-ipadic
 ```
