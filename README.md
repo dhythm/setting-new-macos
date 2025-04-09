@@ -180,6 +180,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [Figma](https://www.figma.com/downloads/)
 
+##### [Linear](https://linear.app/download)
+
 ##### [Python](docs/python.md)
 
 #### モバイル開発
