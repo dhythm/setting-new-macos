@@ -196,7 +196,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [TablePlus](https://tableplus.com/download)
 
-##### [Sequel Pro](https://sequelpro.com/)
+##### [Sequel Ace](https://sequel-ace.com/)
 
 ### その他
 
