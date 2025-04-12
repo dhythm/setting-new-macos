@@ -198,6 +198,14 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [Sequel Ace](https://sequel-ace.com/)
 
+### ビジネスツール
+
+##### [Microsoft Word](https://apps.apple.com/jp/app/microsoft-word/id462054704?l=en-US&mt=12)
+
+##### [Microsoft Excel](https://apps.apple.com/jp/app/microsoft-excel/id462058435?l=en-US&mt=12)
+
+##### [Microsoft PowerPoint](https://apps.apple.com/jp/app/microsoft-powerpoint/id462062816?l=en-US&mt=12)
+
 ### その他
 
 ##### [1Password](docs/1password.md)
