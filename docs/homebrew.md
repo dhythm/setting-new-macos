@@ -40,4 +40,7 @@ brew install graphviz
 
 # 形態素解析
 brew install mecab mecab-ipadic
+
+# Stripe
+brew install stripe/stripe-cli/stripe
 ```
