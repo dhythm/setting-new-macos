@@ -19,4 +19,8 @@ osascript -e 'id of app "Cursor.app"'
 defaults write <表示されたドメイン名> ApplePressAndHoldEnabled -bool false
 ```
 
+## Custom Mode の有効化
+
+![](../assets/img/cursor_settings_01.png)
+
 ## 参考リンク
