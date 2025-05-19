@@ -43,4 +43,10 @@ brew install mecab mecab-ipadic
 
 # Stripe
 brew install stripe/stripe-cli/stripe
+
+# Terraform 関連
+brew install grep
+
+# 環境変数の管理
+brew install direnv
 ```

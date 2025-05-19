@@ -184,6 +184,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [Python](docs/python.md)
 
+##### [Golang](docs/golang.md)
+
 #### モバイル開発
 
 ##### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
