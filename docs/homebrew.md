@@ -22,6 +22,7 @@ brew install diffutils
 
 # Git の脆弱性対応時のアップデート容易性を考慮して更新
 brew install git
+brew install gh
 
 # 動画変換
 brew install ffmpeg
