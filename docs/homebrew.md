@@ -50,4 +50,7 @@ brew install grep
 
 # 環境変数の管理
 brew install direnv
+
+# PostgreSQL
+brew install postgresql
 ```
