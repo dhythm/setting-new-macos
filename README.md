@@ -112,6 +112,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [Obsidian](docs/obsidian.md)
 
+##### [Aqua Voice](docs/aqua-voice.md)
+
 ##### [DeepL](https://www.deepl.com/en/macos-app/)
 
 ##### [Kindle](https://apps.apple.com/jp/app/amazon-kindle/id302584613?l=en-US)
