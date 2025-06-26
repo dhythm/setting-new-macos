@@ -6,7 +6,9 @@
 
 ```sh
 npm install -g @anthropic-ai/claude-code
+
 claude
+claude --dangerously-skip-permissions
 ```
 
 2. MCP サーバーのインストール
@@ -38,6 +40,9 @@ touch .claude/commands/gemini-search.md
 ```sh
 npm install -g @google/gemini-cli
 gemini # 初期化フロー
+gemini --yolo
+
+npx https://github.com/google-gemini/gemini-cli
 ```
 
 2. コマンドライン実行
