@@ -54,6 +54,7 @@ brew install direnv
 # PostgreSQL
 brew install postgresql
 
-# ImageMagick (convert コマンドが利用できるようになる)
+# ImageMagick (magick コマンドが利用できるようになる)
 brew install imagemagick
+brew install ghostscript
 ```
