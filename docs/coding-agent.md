@@ -14,7 +14,10 @@ claude --dangerously-skip-permissions
 2. MCP サーバーのインストール
 
 ```sh
-# グローバルインストール
+# グローバルインストール（永続的）: ~/.claude.json に保存される
+claude mcp add playwright -s user npx @playwright/mcp@latest
+
+# グローバルインストール（セッション）
 claude mcp add playwright npx @playwright/mcp@latest
 
 # ローカルインストール
