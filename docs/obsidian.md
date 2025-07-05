@@ -96,6 +96,12 @@ dv.table(
 
 ### [Diagrams](https://github.com/zapthedingbat/drawio-obsidian)
 
+### [Terminal](https://github.com/polyipseity/obsidian-terminal)
+
+インストール後に `Enable` をオンにする。
+
+![](../assets/img/obsidian_extensions_terminal_01.png)
+
 ## 参考
 
 - [メモ管理は Obsidian in Cursor が最強](https://note.com/shotovim/n/na1d91f10c1d0)
