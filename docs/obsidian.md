@@ -102,6 +102,14 @@ dv.table(
 
 ![](../assets/img/obsidian_extensions_terminal_01.png)
 
+`Profiles` を開きます。
+
+![](../assets/img/obsidian_extensions_terminal_02.png)
+
+不要なものを消します。
+
+![](../assets/img/obsidian_extensions_terminal_03.png)
+
 ## 参考
 
 - [メモ管理は Obsidian in Cursor が最強](https://note.com/shotovim/n/na1d91f10c1d0)
