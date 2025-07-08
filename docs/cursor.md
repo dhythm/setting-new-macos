@@ -23,4 +23,8 @@ defaults write <表示されたドメイン名> ApplePressAndHoldEnabled -bool f
 
 ![](../assets/img/cursor_settings_01.png)
 
+## ターミナルのビープ音を止める
+
+![](../assets/img/cursor_and_vscode_settings_01.png)
+
 ## 参考リンク
