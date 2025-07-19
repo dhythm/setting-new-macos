@@ -168,6 +168,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##### [Cursor](docs/cursor.md)
 
+##### [KIRO](docs/kiro.md)
+
 ##### [Bear](https://bear.app/)
 
 ##### [MacVim](docs/macvim.md)
