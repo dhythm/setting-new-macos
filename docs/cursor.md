@@ -27,4 +27,6 @@ defaults write <表示されたドメイン名> ApplePressAndHoldEnabled -bool f
 
 ![](../assets/img/cursor_and_vscode_settings_01.png)
 
+![](../assets/img/cursor_and_vscode_settings_02.png)
+
 ## 参考リンク
