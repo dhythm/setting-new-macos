@@ -16,6 +16,10 @@
 - [VSCodeVim を使う場合](https://github.com/dhythm/config-public/blob/master/vscode/keybindings.json)
 - [VSCode Neovim を使う場合](https://github.com/dhythm/config-public/blob/master/nvim/keybindings.json)
 
+### Sounds
+
+![](../assets/img/vscode_02.png)
+
 ## Extensions
 
 [拡張一覧](https://github.com/dhythm/config-public/blob/master/vscode/extensions.txt)

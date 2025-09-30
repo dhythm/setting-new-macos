@@ -58,4 +58,10 @@ gemini -p "検索内容"
 
 ```sh
 npm install -g @openai/codex
+# OR
+brew install codex
+```
+
+```sh
+codex
 ```
