@@ -92,6 +92,8 @@ dv.table(
 
 ### [Multi-column Markdown](https://github.com/ckRobinson/multi-column-markdown)
 
+### [Image Context Menus](obsidian://show-plugin?id=copy-url-in-preview)
+
 ### [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 
 ### [Diagrams](https://github.com/zapthedingbat/drawio-obsidian)
