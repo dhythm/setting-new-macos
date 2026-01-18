@@ -13,6 +13,6 @@ Skitch 側は修正できないため、Mac 側の設定を変える必要があ
 
 `Settings > Keyboard > Keyboard Shortcuts > Screenshots` にて、Mac 側の設定を `⇧⌘7` に変更することで重複を避ける。
 
-![](../assets/img/skitch_01.png))
-![](../assets/img/skitch_02.png))
-![](../assets/img/skitch_03.png))
+![](../assets/img/skitch_01.png)
+![](../assets/img/skitch_02.png)
+![](../assets/img/skitch_03.png)
