@@ -20,9 +20,7 @@
 
 ### Themes
 
-人気のある Minimal に変更。
-
-![](../assets/img/obsidian_settings_themes_01.png)
+~~人気のある Minimal に変更。~~
 
 ### Backlinks
 
