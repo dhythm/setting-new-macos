@@ -29,4 +29,14 @@ defaults write <表示されたドメイン名> ApplePressAndHoldEnabled -bool f
 
 ![](../assets/img/cursor_and_vscode_settings_02.png)
 
+## エディタグループのツールバーアイコンの表示設定
+
+エディタグループの右上に表示されるアイコン（分割、ロック、その他メニューなど）の表示/非表示を設定できます。
+
+1. エディタグループの右上にある「...」（三点リーダー）アイコンをクリック
+2. メニューから「Configure Icon Visibility」を選択
+3. 表示したいアイコンにチェックを入れる
+
+または、`Cmd + Shift + P` でコマンドパレットを開き、「Configure Editor Group Icon Visibility」を検索して実行できます。
+
 ## 参考リンク

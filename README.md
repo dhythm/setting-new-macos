@@ -2,97 +2,68 @@
 
 ## 設定
 
-### `System Settings > Keyboard`
+### [キーボード設定](docs/keyboard.md)
 
-- `Key repeat rate` を Fast に設定
-- `Delay until repeat` を Short に設定
-- `Keyboard Shortcuts... > Input Sources` で `Select the previous source in Input menu` を `Cmd + Space` に変更
-- `Keyboard Shortcuts... > Input Sources` で `Select next source in Input menu` を `Cmd + Shift + Space` に変更
-- `Keyboard Shortcuts... > Spotlight` で `Show Spotlight search` を無効化
-- `Keyboard Shortcuts... > Modifier Keys` で `Caps Lock key` を `Control` に変更
+- キーボードのリピート速度を最速に設定
+- キーのリピート開始までの遅延を最短に設定
+- 入力ソース（言語）の切替キーバインドの変更
+- Spotlight 検索を無効化
+- Caps Lock キーを Control キーに変更
 
-![](./assets/img/keyboard_01.png)
-![](./assets/img/keyboard_02.png)
-![](./assets/img/keyboard_03.png)
-![](./assets/img/keyboard_04.png)
-![](./assets/img/keyboard_05.png)
+### [トラックパッド設定](docs/trackpad.md)
 
-### `System Settings > Trackpad`
+- トラッキング速度を最速に設定
+- 調べる機能を3本指タップに変更
+- タップでクリックを有効化
 
-- `Tracking speed` を Fast に設定
-- `Look up & data detectors` を `Tap with Three Fingers` に変更
-- `Tap to click` を ON に設定
+### [一般設定](docs/general.md)
 
-![](./assets/img/trackpad.png)
+- Mac の名前を変更
 
-### `System Settings > General`
+### [アクセシビリティ設定](docs/accessibility.md)
 
-- `About > name` で変更
+- スクロール速度を最速に設定
+- カメラオプションで内蔵カメラ/外付けカメラの切り替えが可能
 
-### `System Settings > Accessibility`
+### [コントロールセンター設定](docs/control-center.md)
 
-- `Pointer Control > Trackpad Options... > Scroll speed` を Fast に設定
+- Bluetooth をメニューバーに表示
+- サウンドをメニューバーに常時表示
+- バッテリー残量のパーセンテージを表示
 
-![](./assets/img/scroll_speed.png)
+### [デスクトップとDock設定](docs/desktop-and-dock.md)
 
-### `System Settings > Accessibility`
-
-- 検索欄で `camera` と入力すると `Camera Options...` が表示される
-- `Camera Options...` から内蔵カメラ/外付けカメラの切り替えができる
-
-![](./assets/img/camera_options.png)
-
-### `System Settings > Control Center`
-
-- `Bluetooth` を表示
-- `Sound` を `Always Show in Menu Bar` に設定
-- `Battery > Show Percentage` を ON に設定
-
-![](./assets/img/control_center_01.png)
-![](./assets/img/control_center_02.png)
-
-### `System Settings > Desktop & Dock`
-
-- `Size` を調整
-- `Automatically hide and show the Dock` を ON に設定
+- Dock のサイズを調整
+- Dock の自動非表示を有効化
 - Dock から不要なアプリケーションを削除
 
-### `System Settings > Displays`
+### [ディスプレイ設定](docs/displays.md)
 
-- `More Space` を選択
+- より多くのスペース（高解像度）を選択
 
-![](./assets/img/display.png)
+### [スクリーンセーバー設定](docs/screen-saver.md)
 
-### `System Settings > Screen Saver`
+- スクリーンセーバーを Hello に変更
 
-- `Hello` に変更
+### [Touch IDとパスワード設定](docs/touch-id-and-password.md)
 
-### `System Settings > Touch ID & Password`
+- Apple Watch で Mac のアンロックを有効化
 
-- Apple Watch で Mac のアンロックを有効にする
+### [プライバシーとセキュリティ設定](docs/privacy-and-security.md)
 
-### `System Settings > Privacy & Security`
+- FileVault の有効化を確認（デフォルト設定）
 
-- `FileVault` が Turn On であることを確認（デフォルト設定）
+### [Finder設定](docs/finder.md)
 
-### `Finder > Settings`
+- サイドバーの表示項目を変更
+- すべてのファイル名拡張子を表示
+- カラムビューに変更
+- タブバーを表示
+- パスバーを表示
 
-- `Sidebar` の設定を変更
-- `Advanced > Show all filename extensions` を選択
-- `View > as Columns` を選択
-- `View > Show Tab Bar` を選択
-- `View > Show Path Bar` を選択
+### [ターミナル設定](docs/terminal.md)
 
-![](./assets/img/finder_01.png)
-![](./assets/img/finder_02.png)
-
-### `Applications > Utilities > Terminal.app`
-
-下記のコマンドを実行して PC を再起動。（[参考](https://vimforvscode.com/enable-key-repeat-vim)）
-
-```
-defaults write -g ApplePressAndHoldEnabled -bool false
-```
+- キーリピートを有効化（長押しによる文字入力の無効化）
 
 ## アプリケーション
 
