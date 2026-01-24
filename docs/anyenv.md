@@ -17,8 +17,4 @@ anyenv install pyenv
 anyenv install rbenv
 ```
 
-### Node.js
-
-node のバージョンは volta にて管理するため、nodenv はインストールしない。
-
 ### [Python](./python.md)
