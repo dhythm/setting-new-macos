@@ -86,13 +86,11 @@
 
 #### [Obsidian](docs/obsidian.md)
 
-### 画像
+### 画像編集ツール
 
-##### [ToyViewer](https://apps.apple.com/jp/app/toyviewer/id414298354?l=en-US&mt=12)
+#### [Skitch](docs/image-editing.md#skitch)
 
-##### [Skitch](docs/skitch.md)
-
-##### [Gapplin](https://apps.apple.com/jp/app/gapplin/id768053424?mt=12)
+#### [Gapplin](docs/image-editing.md#gapplin)
 
 ### コミュニケーション
 
