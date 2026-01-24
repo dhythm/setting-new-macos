@@ -93,6 +93,22 @@
 
 #### [Gapplin](docs/image-editing.md#gapplin)
 
+### エディター
+
+#### [Visual Studio Code](docs/vscode.md)
+
+#### [Cursor](docs/cursor.md)
+
+#### [Kiro](docs/kiro.md)（最近はあまり使用していない）
+
+#### [Antigravity](docs/antigravity.md)
+
+#### [MacVim](docs/macvim.md)
+
+#### [NeoVim](docs/nvim.md)（現状使用していない）
+
+#### [LunarVim](docs/lunar-vim.md)（現状使用していない）
+
 ### コミュニケーション
 
 ##### [Slack](https://slack.com/downloads/mac)
@@ -128,22 +144,6 @@
 ##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
 
 ##### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
-
-### エディター
-
-##### [Visual Studio Code](docs/vscode.md)
-
-##### [Cursor](docs/cursor.md)
-
-##### [KIRO](docs/kiro.md)
-
-##### [Bear](https://bear.app/)
-
-##### [MacVim](docs/macvim.md)
-
-##### [NeoVim](docs/nvim.md)
-
-##### [LunarVim](docs/lunar-vim.md)
 
 ### 開発環境・ツール
 
