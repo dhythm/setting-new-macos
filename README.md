@@ -165,10 +165,6 @@ Google が提供する日本語フォント。可読性が高く、日本語表�
 #### [ラノベ POP V2](docs/fonts.md#ラノベ-pop-v2)
 日本語フォント。ポップなデザインで、見出しなどに使える。
 
-
-（ここまで見直し完了）
----
-
 ### 開発環境・ツール
 
 #### [Homebrew](docs/homebrew.md)
@@ -200,14 +196,17 @@ AWS コマンドラインインターフェース。AWS サービスをコマン
 
 #### データベース
 
-#### [DBeaver](https://dbeaver.io/)
+#### [DBeaver](docs/database.md#dbeaver)
 データベース管理ツール。多くのデータベースに対応し、無料で高機能。
 
-#### [TablePlus](https://tableplus.com/download)
+#### [TablePlus](docs/database.md#tableplus)
 データベース管理ツール。UI が美しく、使いやすい。多くのデータベースに対応。
 
-#### [Sequel Ace](https://sequel-ace.com/)
+#### [Sequel Ace](docs/database.md#sequel-ace)
 MySQL データベース管理ツール。Sequel Pro の後継で、macOS 専用。軽量で高速。
+
+（ここまで見直し完了）
+---
 
 ### ビジネスツール
 
