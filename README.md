@@ -111,15 +111,13 @@
 
 ### コミュニケーション
 
-##### [Slack](https://slack.com/downloads/mac)
+#### [Slack](docs/communication.md#slack)
 
-##### [Zoom](https://zoom.us/download)
+#### [Zoom](docs/communication.md#zoom)
 
-##### [Discord](https://discord.com/download)
+#### [Discord](docs/communication.md#discord)
 
-##### [LINE](https://apps.apple.com/jp/app/line/id539883307?mt=12)
-
-##### [Tandem](https://tandem.chat/welcome/download)
+#### [LINE](docs/communication.md#line)
 
 ### ターミナル
 
