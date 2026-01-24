@@ -131,9 +131,11 @@
 
 ### フォント
 
-##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
+#### [Operator Mono Ligatures](docs/fonts.md#operator-mono-ligatures)
 
-##### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
+#### [ラノベ POP V2](docs/fonts.md#ラノベ-pop-v2)
+
+#### [Noto Sans JP](docs/fonts.md#noto-sans-jp)
 
 ### 開発環境・ツール
 
