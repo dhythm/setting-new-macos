@@ -67,11 +67,12 @@
 
 ## アプリケーション
 
-### ブラウザ
+### [ブラウザ](docs/browser.md)
 
-##### [Google Chrome](docs/google-chrome.md)
-
-##### [Sidekick](docs/sidekick.md)
+使用しているブラウザ：
+- Google Chrome
+- Comet
+- ChatGPT Atlas
 
 ### 効率化
 
