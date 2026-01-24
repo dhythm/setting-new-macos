@@ -127,6 +127,16 @@
 
 #### [iTerm2](docs/iterm2.md)
 
+#### [Ghostty](docs/ghostty.md)
+
+### フォント
+
+##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
+
+##### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
+
+### 開発環境・ツール
+
 #### [Oh My Zsh](docs/oh-my-zsh.md)
 
 #### [Homebrew](docs/homebrew.md)
@@ -141,31 +151,23 @@
 
 #### [Slack for Developer](docs/slack-for-developer.md)
 
-### フォント
+#### [Docker Desktop for Mac](docs/docker.md)
 
-##### [Operator Mono Ligatures](docs/operator-mono-lig.md)
+#### [Figma](https://www.figma.com/downloads/)
 
-##### [ラノベ POP V2](https://www.fontna.com/blog/1706/)
+#### [Linear](https://linear.app/download)
 
-### 開発環境・ツール
+#### [Python](docs/python.md)
 
-##### [Docker Desktop for Mac](docs/docker.md)
-
-##### [Figma](https://www.figma.com/downloads/)
-
-##### [Linear](https://linear.app/download)
-
-##### [Python](docs/python.md)
-
-##### [Golang](docs/golang.md)
+#### [Golang](docs/golang.md)
 
 #### データベース
 
-##### [DBeaver](https://dbeaver.io/)
+#### [DBeaver](https://dbeaver.io/)
 
-##### [TablePlus](https://tableplus.com/download)
+#### [TablePlus](https://tableplus.com/download)
 
-##### [Sequel Ace](https://sequel-ace.com/)
+#### [Sequel Ace](https://sequel-ace.com/)
 
 ### ビジネスツール
 
