@@ -76,19 +76,15 @@
 
 ### 効率化
 
-##### [Raycast](docs/raycast.md)
+#### [Raycast](docs/raycast.md)
 
-##### [ChatGPT](docs/chat-gpt.md)
+#### [Aqua Voice](docs/aqua-voice.md)
 
-##### [Claude](docs/claude.md)
+#### [ChatGPT](docs/chat-gpt.md)
 
-##### [Obsidian](docs/obsidian.md)
+#### [Claude](docs/claude.md)
 
-##### [Aqua Voice](docs/aqua-voice.md)
-
-##### [DeepL](https://www.deepl.com/en/macos-app/)
-
-##### [Kindle](https://apps.apple.com/jp/app/amazon-kindle/id302584613?l=en-US)
+#### [Obsidian](docs/obsidian.md)
 
 ### 画像
 
