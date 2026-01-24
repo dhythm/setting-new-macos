@@ -93,7 +93,7 @@
 
 #### [Gapplin](docs/image-editing.md#gapplin)
 
-### エディター
+### エディター・IDE
 
 #### [Visual Studio Code](docs/vscode.md)
 
@@ -109,6 +109,10 @@
 
 #### [LunarVim](docs/lunar-vim.md)（現状使用していない）
 
+#### [Xcode](docs/xcode.md)（ほぼ使用していない）
+
+#### [Android Studio](docs/android-studio.md)（ほぼ使用していない）
+
 ### コミュニケーション
 
 #### [Slack](docs/communication.md#slack)
@@ -121,21 +125,21 @@
 
 ### ターミナル
 
-##### [iTerm2](docs/iterm2.md)
+#### [iTerm2](docs/iterm2.md)
 
-##### [Oh My Zsh](docs/oh-my-zsh.md)
+#### [Oh My Zsh](docs/oh-my-zsh.md)
 
-##### [Homebrew](docs/homebrew.md)
+#### [Homebrew](docs/homebrew.md)
 
-##### [Git / GitHub](docs/git-and-github.md)
+#### [Git / GitHub](docs/git-and-github.md)
 
-##### [anyenv](docs/anyenv.md)
+#### [anyenv](docs/anyenv.md)
 
-##### [volta](docs/volta.md)
+#### [volta](docs/volta.md)
 
-##### [AWS cli](docs/aws-cli.md)
+#### [AWS cli](docs/aws-cli.md)
 
-##### [Slack for Developer](docs/slack-for-developer.md)
+#### [Slack for Developer](docs/slack-for-developer.md)
 
 ### フォント
 
@@ -154,12 +158,6 @@
 ##### [Python](docs/python.md)
 
 ##### [Golang](docs/golang.md)
-
-#### モバイル開発
-
-##### [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
-
-##### [Android Studio](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds)
 
 #### データベース
 
