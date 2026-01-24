@@ -67,12 +67,13 @@
 
 ## アプリケーション
 
-### [ブラウザ](docs/browser.md)
+### ブラウザ
 
-使用しているブラウザ：
-- Google Chrome
-- Comet
-- ChatGPT Atlas
+#### [Google Chrome](docs/browser.md#google-chrome)
+
+#### [Comet](docs/browser.md#comet)
+
+#### [ChatGPT Atlas](docs/browser.md#chatgpt-atlas)
 
 ### 効率化
 
