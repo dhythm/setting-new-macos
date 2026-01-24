@@ -145,6 +145,16 @@ Android アプリケーション開発のための IDE。Google が提供する�
 
 #### [LINE](docs/communication.md#line)
 メッセージングアプリ。日本で広く使われており、個人連絡に利用。
+### ビジネスツール
+
+#### [Microsoft Word](docs/business.md#microsoft-word)
+Microsoft のワードプロセッサ。文書作成の標準ツール。
+
+#### [Microsoft Excel](docs/business.md#microsoft-excel)
+Microsoft の表計算ソフト。データ分析や集計に広く使われている。
+
+#### [Microsoft PowerPoint](docs/business.md#microsoft-powerpoint)
+Microsoft のプレゼンテーションソフト。スライド作成の標準ツール。
 
 ### ターミナル
 
@@ -204,22 +214,3 @@ AWS コマンドラインインターフェース。AWS サービスをコマン
 
 #### [Sequel Ace](docs/database.md#sequel-ace)
 MySQL データベース管理ツール。Sequel Pro の後継で、macOS 専用。軽量で高速。
-
-（ここまで見直し完了）
----
-
-### ビジネスツール
-
-##### [Microsoft Word](https://apps.apple.com/jp/app/microsoft-word/id462054704?l=en-US&mt=12)
-Microsoft のワードプロセッサ。文書作成の標準ツール。
-
-##### [Microsoft Excel](https://apps.apple.com/jp/app/microsoft-excel/id462058435?l=en-US&mt=12)
-Microsoft の表計算ソフト。データ分析や集計に広く使われている。
-
-##### [Microsoft PowerPoint](https://apps.apple.com/jp/app/microsoft-powerpoint/id462062816?l=en-US&mt=12)
-Microsoft のプレゼンテーションソフト。スライド作成の標準ツール。
-
-### その他
-
-##### [1Password](docs/1password.md)
-パスワードマネージャー。安全にパスワードを管理し、自動入力機能も便利。
