@@ -1,6 +1,6 @@
 # MacBook Pro セットアップ
 
-## 設定
+## システム設定
 
 ### [キーボード設定](docs/keyboard.md)
 
